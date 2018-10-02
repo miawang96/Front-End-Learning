@@ -25,4 +25,51 @@ Angular2 与 Angular1.x完全不同，最基本的语法都不一样，Angular1.x是基于javascript
 
 8.何为TypeScript
 
-9.
+9.何为作用域链（例子理解）  类似于原型链
+a)全局函数无法查看局部函数的全部细节，但局部函数可以查看其上层的函数细节，直至全局细节
+b)如果当前作用域没有找到属性或方法，会向上层作用域查找，直至全局函数，这种形式就是作用域链
+
+10.对this对象的理解
+a)对于函数，this 指向调用该函数的对象
+b)对于事件，this指向触发该事件的对象
+c)对于 new 方法，this指向被创建出来的实例对象
+d)IE下attachEvent中的this指向全局对象Window
+
+11.复述HTML文档中都有哪些节点
+文档节点：整个文档
+元素节点：每个HTML元素
+文本节点：HTML元素内的文本
+属性节点：每个HTML属性
+注释节点：注释
+根节点：Document对象是HTML文档的根节点
+
+12.事件的三个阶段
+捕获阶段、目标阶段、冒泡阶段
+浏览器总是假定click事件的目标节点为嵌套最深的那个节点
+
+13.写一个完整的HTML文档的结构
+<!DOCTYPE html>
+  <head>
+    <title></title>
+  </head>
+  <body></body>
+</html>
+
+14.如何引用JQuery库
+下载JQuery库 -> 在HTML的<script>标签中引用它
+JQuery版本有两种：
+Production version - 用于实际的网站中，已被精简和压缩
+Development version - 用于测试和开发，代码可读
+
+15.HTML新增元素特性
+
+16.CSS垂直水平居中
+
+17.页面渲染的完整流程
+
+18.用户输入URL回车之后，浏览器都做了哪些？
+
+19.event作为函数参数
+
+
+

@@ -61,7 +61,7 @@ JQuery版本有两种：
 Production version - 用于实际的网站中，已被精简和压缩
 Development version - 用于测试和开发，代码可读
 
-15.HTML新增元素特性
+15.HTML5新增元素特性
 
 16.CSS垂直水平居中
 
@@ -70,6 +70,54 @@ Development version - 用于测试和开发，代码可读
 18.用户输入URL回车之后，浏览器都做了哪些？
 
 19.event作为函数参数
+
+20.（性能优化）函数节流与去都抖动应用场景和原理以及实现方法
+
+21.几个鼠标事件中的坐标总结
+clientX:返回鼠标位置相对于浏览器窗口左上角的水平坐标
+clientY:返回垂直坐标
+
+movementX:当前位置与上一个mousemove事件之间的水平距离
+movementY:当前位置与上一个mousemove事件之间的垂直距离
+
+screenX:返回鼠标位置相对于屏幕左上角的水平坐标
+screenY:返回垂直坐标
+
+offsetX:返回鼠标位置与目标节点左侧的padding边缘的水平距离
+offsetY:返回与目标节点上方的padding边缘的垂直距离
+
+pageX:返回鼠标位置与文档左侧边缘的距离
+pageY:返回鼠标位置与文档上侧边缘的距离
+
+22.new操作符具体都做了些什么
+
+23.一些js命令扫盲
+a.$$(sel)//被许多现代浏览器命令行支持，等价于document.querySelectorAll(sel)
+b.~~Math.random()*(1<<24) // ~~ 作用相当于 parseInt 取整
+c.[].forEach.call(NodeLists)//因为NodeList没有forEach方法，因此借助空数组，并且使用call函数将数组遍历函数forEach应用到元素节点列表
+
+24.CSS中的outline样式属性
+outline是绘制于元素周围的一条线，位于边框边缘的外围，可起到突出元素的作用
+该样式位于盒模型之外，不影响元素布局位置
+
+25.CSS3新增元素特性
+
+25.深入理解异步编程（***）
+a.回调函数
+b.事件监听
+c.发布/订阅
+d.Promise对象
+e.Async函数
+
+26.web开发中回话跟踪的方法有哪些
+a.session
+b.cookie
+c.url重写
+d.隐藏inout
+e.ip地址
+
+27.javascript如何实现继承
+
 
 
 

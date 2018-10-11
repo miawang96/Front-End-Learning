@@ -24,6 +24,8 @@ Angular2 与 Angular1.x完全不同，最基本的语法都不一样，Angular1.x是基于javascript
 
 
 8.何为TypeScript
+TypeScript是一种由微软开发的自由和开源的编程语言。
+它是JavaScript的一个超集，而且本质上向这个语言添加了可选的静态类型和基于类的面向对象编程。
 
 9.何为作用域链（例子理解）  类似于原型链
 a)全局函数无法查看局部函数的全部细节，但局部函数可以查看其上层的函数细节，直至全局细节
@@ -61,7 +63,19 @@ JQuery版本有两种：
 Production version - 用于实际的网站中，已被精简和压缩
 Development version - 用于测试和开发，代码可读
 
-15.HTML5新增元素特性
+15.HTML5新增元素特性（**熟悉使用**）
+HTML5是对HTML标准的第五次修订
+a.文件类型声明仅有一型：<!DOCTYPE HTML>
+b.新的解析顺序，不再基于SGML
+c.新的元素：section,video,progress,nav,meter,time,aside,canvas,command,datalist,details,embed,figcaption,figure
+	    footer,header,hgroup,keygen,mark,output,rp,rt,ruby,source,summary,wbr
+d.input元素的新类型:date,email,url等
+e.新的属性:ping（用于a与area）,charset（用于meta），async（用于script）
+f.全域属性: id,tabindex,repeat
+g.新的全域属性：contenteditable,contextmenu,draggable,dropzone,hidden,spellcheck
+h.移除元素：acronym, applet, basefont, big, center, dir, font, frame, frameset, isindex, noframes, strike, tt
+i.新增接口：HTML Geolocation HTML Drag and Drop HTML Local Storage HTML Application Cache
+            HTML Web Workers HTML SSE HTML Canvas/WebGL HTML Audio/Video
 
 16.CSS垂直水平居中
 
@@ -119,6 +133,75 @@ e.ip地址
 27.javascript如何实现继承
 
 28.何为沙盒机制
+对应用程序执行各种操作进行了权限的限制，在IOS系统中，一般程序是没有权限访问系统的缓存等
+
+29.CSS选择器
+
+30.回调函数的作用及意义
+
+31.jQuery尺寸验证
+
+32.名词扩写整理
+a.DOM   Document Object Model
+b.HTML	Hyper Text Model Language
+c.CSS   
+d.AJAX  Asynchronous Javascript and XML
+
+33.HTTP请求中 GET和POST的区别
+
+34.页面转发和重定向的区别
+
+35.域名概念学习
+
+
+==================================
+Service Port
+44119
+Password
+nAmGUbdxkjd84Td
+Encryption
+chacha20-ietf-poly1305
+Data allowance
+50.00 GB
+Data used
+318.45 MB
+Data remaining
+49.69 GB
+Data pack remaining
+-
+Configuration file
+Download
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

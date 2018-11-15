@@ -1,0 +1,19 @@
+1.将文字 按钮等放在图片上
+a.position
+b.background-image
+
+
+
+2.css结构
+
+3.画一个空心圆
+
+4.轮播图 JQuery bxslider插件
+
+5.ul中的li显示在同一行中
+
+6.div里的文字自动换行、强制不换行、强制断行、超出显示省略号
+
+7.background img 和 一般 img的区别
+
+8.图片战术问题

@@ -2,9 +2,7 @@
 a.position
 b.background-image
 
-
-
-2.css结构
+2.css层级结构
 
 3.画一个空心圆
 
@@ -16,4 +14,39 @@ b.background-image
 
 7.background img 和 一般 img的区别
 
-8.图片战术问题
+8.图片压缩问题
+
+9.css的继承规则
+
+10.图片自适应调整大小
+
+11.何为Layout属性值？
+
+12.HTML5新增元素特性（**熟悉使用**）
+HTML5是对HTML标准的第五次修订
+a.文件类型声明仅有一型：<!DOCTYPE HTML>
+b.新的解析顺序，不再基于SGML
+c.新的元素：section,video,progress,nav,meter,time,aside,canvas,command,datalist,details,embed,figcaption,figure
+	    footer,header,hgroup,keygen,mark,output,rp,rt,ruby,source,summary,wbr
+d.input元素的新类型:date,email,url等
+e.新的属性:ping（用于a与area）,charset（用于meta），async（用于script）
+f.全域属性: id,tabindex,repeat
+g.新的全域属性：contenteditable,contextmenu,draggable,dropzone,hidden,spellcheck
+h.移除元素：acronym, applet, basefont, big, center, dir, font, frame, frameset, isindex, noframes, strike, tt
+i.新增接口：HTML Geolocation HTML Drag and Drop HTML Local Storage HTML Application Cache
+            HTML Web Workers HTML SSE HTML Canvas/WebGL HTML Audio/Video
+
+13.CSS中的outline样式属性
+outline是绘制于元素周围的一条线，位于边框边缘的外围，可起到突出元素的作用
+该样式位于盒模型之外，不影响元素布局位置
+
+14.CSS3新增元素特性
+
+
+15.CSS选择器
+
+16.CSS垂直水平居中
+
+17.HTML去掉超链接的样式
+
+18.less sass scss

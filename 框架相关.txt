@@ -46,6 +46,12 @@ e.代码优化(压缩/合并)：Gulp, Grunt
 f.代码检查：JSHint, ESLint
 g.代码测试：Mocha
 
+13.Angular（新版本）和AngularJS（老版本）之间的关系？
+Angular1是典型的MVC架构
+Angualr2是基于组件的架构（基本是推到重来）
+Angular2 与 Angular1.x完全不同，最基本的语法都不一样，Angular1.x是基于javascript,
+而Angualr2是基于TypeScript的框架
+
 
 
 

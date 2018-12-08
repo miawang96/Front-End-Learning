@@ -29,7 +29,8 @@ b.新的解析顺序，不再基于SGML
 c.新的元素：section,video,progress,nav,meter,time,aside,canvas,command,datalist,details,embed,figcaption,figure
 	    footer,header,hgroup,keygen,mark,output,rp,rt,ruby,source,summary,wbr
 d.input元素的新类型:date,email,url等
-e.新的属性:ping（用于a与area）,charset（用于meta），async（用于script）
+e.新的属性:ping（用于a与area）,charset（用于meta），async（用于script）autocomplete,min,max,multiple,pattern,step,
+           formaction,formenctype,formmethod,formnovalidate,formtarget(?)`````````````````````````
 f.全域属性: id,tabindex,repeat
 g.新的全域属性：contenteditable,contextmenu,draggable,dropzone,hidden,spellcheck
 h.移除元素：acronym, applet, basefont, big, center, dir, font, frame, frameset, isindex, noframes, strike, tt
@@ -52,3 +53,13 @@ outline是绘制于元素周围的一条线，位于边框边缘的外围，可起到突出元素的作用
 18.less sass scss
 
 19.两个div并排有间隙的问题
+
+20.<pre></pre>标签
+是预格式化标记，被包围在<pre></pre>元素中的文本通常会保留空格和换行符，而文本也会呈现为等宽字体。
+
+21.在HTML中如何使用XML?
+
+22.怪异模式？标准模式？
+
+23.XHTML?
+24.请用HTML标签写一个语义化的页面，页面中有导航栏，页眉，页脚，文字内容以及图片内容。

@@ -180,11 +180,11 @@ e.extends继承
 28.何为沙盒机制
 对应用程序执行各种操作进行了权限的限制，在IOS系统中，一般程序是没有权限访问系统的缓存等
 
-29.Node类型
+29.Node类型（写文章）
 
-30.innerHTML & innerText & outerHTML三者的区别
+30.innerHTML & innerText & outerHTML三者的区别（写文章√）
 
-============
+31.constructor & prototype
 32.名词扩写整理
 a.DOM   Document Object Model
 b.HTML	Hyper Text Model Language
@@ -192,7 +192,8 @@ c.CSS
 d.AJAX  Asynchronous Javascript and XML
 e.URI Uniform Resource Identifier
 
-===========
+33.undefined和null整理归纳
+
 34.页面转发和重定向的区别
 URL:重定向开始了一个新的HTTP请求，地址栏会变；转发是服务器内部重定向，地址栏信息不变
 数据共享：重定向不能共享请求里的数据；转发则可以共享请求里的数据
@@ -208,7 +209,7 @@ URL:重定向开始了一个新的HTTP请求，地址栏会变；转发是服务器内部重定向，地址栏信息
 用户看到新内容,进行下一步操作
 （用户提交表单后的显示结果的过程）
 
-=========
+38.window.location.protocol window.location.host window.location.href
 39.Chrome懒加载资源的机制（总结 记录）
 
 40.深入理解原型链

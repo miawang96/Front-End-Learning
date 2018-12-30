@@ -96,6 +96,11 @@ Development version - ÓÃÓÚ²âÊÔºÍ¿ª·¢£¬´úÂë¿É¶Á
 15.¶¨Ê±Æ÷
 
 16.º¯Êý¶¨ÒåµÄÁ½ÖÖ·½Ê½
+a.º¯ÊýÉùÃ÷  function foo() {}
+b.º¯Êý±í´ïÊ½£¨¡®=¡¯¸³Öµ±í´ïÊ½£© var foo = function() {}
+ÁíÍâ£¬»¹ÓÐÒ»ÖÖ×ÔÖ´ÐÐº¯Êý±í´ïÊ½£¬Ö÷ÒªÓÃÓÚ´´½¨Ò»¸öÐÂµÄ×÷ÓÃÓò£¬ÔÚ´Ë×÷ÓÃÓòÄÚÉùÃ÷µÄ±äÁ¿²»»áºÍÆäËû×÷ÓÃÓòµÄ±äÁ¿³åÍ»»ò»ìÏý£¬
+´ó¶àÊÇÒÔÄäÃûº¯ÊýµÄ·½Ê½´æÔÚ£¬ÇÒÁ¢¼´×Ô¶¯Ö´ÐÐ¡£
+(function(){})();
 
 17.Ò³ÃæäÖÈ¾µÄÍêÕûÁ÷³Ì
 1. ÓÃ»§ÊäÈëÍøÖ·£¨¼ÙÉèÊÇ¸öhtmlÒ³Ãæ£¬²¢ÇÒÊÇµÚÒ»´Î·ÃÎÊ£©£¬ä¯ÀÀÆ÷Ïò·þÎñÆ÷·¢³öÇëÇó£¬·þÎñÆ÷·µ»ØhtmlÎÄ¼þ£» 
@@ -121,6 +126,10 @@ Development version - ÓÃÓÚ²âÊÔºÍ¿ª·¢£¬´úÂë¿É¶Á
 11. ä¯ÀÀÆ÷ÕÙ¼¯ÁËÔÚ×ùµÄ¸÷Î»£¼div£¾£¼span£¾£¼ul£¾£¼li£¾ÃÇ£¬¡°´ó»ï¶ùÊÕÊ°ÊÕÊ°ÐÐÀî£¬ÔÛµÃÖØÐÂÀ´¹ý¡­¡­¡±£¬ä¯ÀÀÆ÷Ïò·þÎñÆ÷ÇëÇóÁËÐÂµÄCSSÎÄ¼þ£¬ÖØÐÂäÖÈ¾Ò³Ãæ¡£
 
 18.Êý¾ÝÀàÐÍ£¿»ù±¾Êý¾ÝÀàÐÍ£¿PrimitiveÊý¾ÝÀàÐÍ£¿
+5ÖÖ¼òµ¥£¨»ù±¾£©Êý¾ÝÀàÐÍ£ºundefined null boolean number string
+1ÖÖ¸´ÔÓÊý¾ÝÀàÐÍ£ºObject£¨°üÀ¨function array?£©
+primitiveÊý¾ÝÀàÐÍ£ºchar byte short int long float double
+typeof²Ù×÷·û£¨×¢Òâ²»ÊÇº¯Êý£©¿ÉÒÔÓÃÀ´¼ì²â¸ø¶¨±äÁ¿µÄÊý¾ÝÀàÐÍ
 
 19.ÊÂ¼þÖÐµÄä¯ÀÀÆ÷¼æÈÝÐÔ
 
@@ -153,7 +162,7 @@ a.$$(sel)//±»Ðí¶àÏÖ´úä¯ÀÀÆ÷ÃüÁîÐÐÖ§³Ö£¬µÈ¼ÛÓÚdocument.querySelectorAll(sel)
 b.~~Math.random()*(1<<24) // ~~ ×÷ÓÃÏàµ±ÓÚ parseInt È¡Õû
 c.[].forEach.call(NodeLists)//ÒòÎªNodeListÃ»ÓÐforEach·½·¨£¬Òò´Ë½èÖú¿ÕÊý×é£¬²¢ÇÒÊ¹ÓÃcallº¯Êý½«Êý×é±éÀúº¯ÊýforEachÓ¦ÓÃµ½ÔªËØ½ÚµãÁÐ±í
 
-24.window¶ÔÏó
+24.window¶ÔÏó£¨¶¨Òå¡¢ÊôÐÔºÍ·½·¨£©
 
 25.ÉîÈëÀí½âÒì²½±à³Ì£¨***£©
 a.»Øµ÷º¯Êý
@@ -198,7 +207,8 @@ e.URI Uniform Resource Identifier
 URL:ÖØ¶¨Ïò¿ªÊ¼ÁËÒ»¸öÐÂµÄHTTPÇëÇó£¬µØÖ·À¸»á±ä£»×ª·¢ÊÇ·þÎñÆ÷ÄÚ²¿ÖØ¶¨Ïò£¬µØÖ·À¸ÐÅÏ¢²»±ä
 Êý¾Ý¹²Ïí£ºÖØ¶¨Ïò²»ÄÜ¹²ÏíÇëÇóÀïµÄÊý¾Ý£»×ª·¢Ôò¿ÉÒÔ¹²ÏíÇëÇóÀïµÄÊý¾Ý
 
-===========
+35.´´½¨¶ÔÏónewÃüÁîµÄÔ­Àí  ¹¹Ôìº¯ÊýÖÐÓÐreturn£¨·ÖÇé¿öÌÖÂÛ£©
+
 36.js´´½¨¶ÔÏóµÄ¼¸ÖÖ·½Ê½
 
 37.ºÎÎªÒì²½£¿ºÎÎªÍ¬²½£¿
@@ -219,8 +229,9 @@ URL:ÖØ¶¨Ïò¿ªÊ¼ÁËÒ»¸öÐÂµÄHTTPÇëÇó£¬µØÖ·À¸»á±ä£»×ª·¢ÊÇ·þÎñÆ÷ÄÚ²¿ÖØ¶¨Ïò£¬µØÖ·À¸ÐÅÏ¢
 --Ô­ÐÍÁ´£ºÃ¿¸ö¶ÔÏó¶¼ÓÐ×Ô¼ºµÄÔ­ÐÍ¶ÔÏó£¬¶øÔ­ÐÍ¶ÔÏóÒ²ÊÇ¶ÔÏó£¬Ò²ÓÐ×Ô¼ºµÄÔ­ÐÍ£¬Òò´Ë¹¹³ÉÁËÔ­ÐÍÁ´¡£
 --ÊôÐÔ£º¶ÁÈ¡¶ÔÏóµÄÄ³¸öÊôÐÔÊ±£¬JavaScriptÒýÇæÏÈÑ°ÕÒ¶ÔÏó±¾ÉíµÄÊôÐÔ£¬Èç¹ûÕÒ²»µ½£¬¾ÍÈ¥ËüµÄÔ­ÐÍÕÒ£¬
 ÒÀ´ËÀàÍÆ£¬Ö±µ½×î¶¥²ãObject.prototype£¬»¹ÊÇÕÒ²»µ½µÄ»°£¬Ôò·µ»Øundefined
-?
-ÎÊÌâ£ºÔ­ÐÍÁ´µÄ¾¡Í·ÊÇnull,ÊôÐÔÕÒ²»µ½·µ»Øundefined?
+
+Ô­ÐÍÁ´Ò»°ãÔÚ¶¨Òå¹¹Ôìº¯ÊýÊ±ÓÃµ½£¬¿ÉÒÔÈÏÎªÊÇÕë¶Ô¹¹Ôìº¯ÊýµÄ»òÕßËµÊÇÕë¶Ô¹¹Ôìº¯Êý¶ÔÓ¦µÄÀàµÄ¡£JavaScriptÃ»ÓÐ¶ÔÓ¦
+¼Ì³ÐµÄ¹Ø¼ü×Ö£¬ËùÒÔÓÃÔ­ÐÍÁ´Ä£Äâ¼Ì³ÐµÄÐ§¹û¡£
 
 41.JSÖÐµÄcall,applyºÍbind·½·¨£¨£¡£¡Ð´Ò»ÏÂÎÄµµ£©
 ÊÇFunction×Ô´øµÄÈý¸ö·½·¨£¬Ö÷Òª×÷ÓÃÊÇ¸Ä±äº¯ÊýÖÐµÄthisÖ¸Ïò¡£
@@ -297,7 +308,8 @@ DOM²Ù×÷¶¯×÷£¬×î¹Ø¼üµÄ»¹ÓÐ½Å±¾Ö®¼äµÄÒÀÀµÐÔ£¬ä¯ÀÀÆ÷±ØÐëµÈ´ýµ±Ç°Ö´ÐÐµÄ½Å±¾Ö´ÐÐÍê³ÉÖ
 £¨¹Ê²»Ö§³ÖjsµÄ²¢ÐÐÏÂÔØ£©
 
 57.ÁË½âXHR£¨XMLHTTPRequest£©
-"ÎÒÃÇÊ¹ÓÃXMLHTTPRequest¶ÔÏóÀ´·¢ËÍÒ»¸öAjaxÇëÇó"£¨¾ßÌåÊÇÈçºÎ×öµÄÄØ£¿£¿£¿£©
+"ÎÒÃÇÊ¹ÓÃXMLHTTPRequest¶ÔÏóÀ´·¢ËÍÒ»¸öAjaxÇëÇó"
+AjaxµÄ¹¦ÄÜÊÇÀûÓÃXMLHttpRequest¶ÔÏóµÄÊôÐÔºÍ·½·¨·â×°ÆðÀ´µÄ¡£
 ËüÊÇÒ»×éAPIº¯Êý¼¯£¬¿É±»Ò»Ð©½Å±¾ÓïÑÔÊ¹ÓÃ£¬Í¨¹ýHTTPÐ­ÒéÔÚä¯ÀÀÆ÷ºÍweb·þÎñÆ÷Ö®¼äÊÕ·¢XML»òÆäËûÊý¾Ý¡£
 Ëü×î´óµÄºÃ´¦ÔÚÓÚ¿ÉÒÔ¶¯Ì¬µØ¸üÐÂÍøÒ³£¬ËüÎÞÐèÖØÐÂ´Ó·þÎñÆ÷¶ÁÈ¡Õû¸öÍøÒ³£¬Ò²²»ÐèÒª°²×°¶îÍâµÄ²å¼þ¡£
 
@@ -305,14 +317,19 @@ DOM²Ù×÷¶¯×÷£¬×î¹Ø¼üµÄ»¹ÓÐ½Å±¾Ö®¼äµÄÒÀÀµÐÔ£¬ä¯ÀÀÆ÷±ØÐëµÈ´ýµ±Ç°Ö´ÐÐµÄ½Å±¾Ö´ÐÐÍê³ÉÖ
 
 59.¶à¸öjs½Å±¾µÄÖ´ÐÐË³Ðò
 
-============
-61.¼ýÍ·º¯ÊýµÄthisÖ¸ÏòÎÊÌâ£¨½áºÏjqueryÌí¼Ó×Ô¶¨ÒåÑéÖ¤£©
+60.ÕýÔò±í´ïÊ½ÁªÏµ
+¡ª¡ª0µ½100µÄ¶þÎ»Ð¡Êý 100Îª×î´ó
+^100$|^[1-9]?\d(\.\d\d?)?$
+¡ª¡ªÉí·ÝÖ¤Ð£Ñé
+^\d{15}$|^\d{18}$|^\d{17}(\d|x|X)$
+
+61.¼ýÍ·º¯ÊýµÄthisÖ¸ÏòÎÊÌâ
 ¼ýÍ·º¯ÊýÃ»ÓÐ×Ô¼ºµÄthisÉÏÏÂÎÄ
 ¼ýÍ·º¯ÊýµÄº¯ÊýÌåÖÐ³öÏÖµÄthisÔÚÔËÐÐÊ±°ó¶¨µ½×î½üµÄ×÷ÓÃÓòÉÏÏÂÎÄ¶ÔÏó
 
 62.Êý¾Ý¿â³¤¶È¶ÔÓ¦µÄ×Ö·û´®³¤¶È
 
-==========
+63.JavaScriptÃ»ÓÐ¶ÀÁ¢µÄÔËÐÐ´°¿Ú£¬ä¯ÀÀÆ÷µÄµ±Ç°´°¿Ú¾ÍÊÇËüµÄÔËÐÐ´°¿Ú¡£
 64.×Ô¶¨ÒåÊÂ¼þ£¨²Î¿¼ÒÑÓÐ´úÂë×Ü½á£©
 a.×Ô¶¨ÒåÒ»¸öÊÂ¼þ
 b.¸øÔªËØ°ó¶¨ÊÂ¼þ
@@ -321,8 +338,11 @@ c.´¥·¢ÊÂ¼þ
 65.ä¯ÀÀÆ÷ÎÞºÛÄ£Ê½
 ²¢²»»áÔÚÍøÂçÖÐÒþ²ØÄã·¢ÆðµÄÇëÇó£¬Ö»ÊÇ²»ÔÚä¯ÀÀÆ÷ÖÐ±£´æ´æ´¢ä¯ÀÀ¼ÇÂ¼ÄËÖÁcookie
 
+66.AjaxÖÐJavaScript½Å±¾»º´æÎÊÌâ
+ÐÞ¸ÄJSÄÚÈÝ£¬µ÷ÊÔÊ±²¢²»ÄÜÏÔÊ¾ÐÂÐ´µÄ´úÂëµÄ½á¹û£¬ÊÇÒòÎªJSÎªÁË¼ÓËÙÒ³ÃæÖ´ÐÐ£¬µ±Ç°Ò³Ãæ»áÊ¹ÓÃ»º´æÀ´±£³Öµ±Ç°µ÷ÓÃµÄÏàÍ¬Á¬½Ó¡£
 
-============
+ÎªÁË¿ª·¢Ê±µ÷ÊÔ·½±ã£¬¿ÉÒÔÔÚÁ´½ÓµØÖ·µÄºóÃæÔö¼ÓÒ»¸öËæ»úº¯Êý¡£
+
 67.Ïà¶ÔÂ·¾¶  ¾ø¶ÔÂ·¾¶
 ¾ø¶ÔÂ·¾¶£º´ÓÎÄ¼þ¸ùÄ¿Â¼Öð¼¶ÍùÏÂµÄÎÄ¼þÂ·¾¶
 Ïà¶ÔÂ·¾¶£º´Óµ±Ç°ÎÄ¼þ³ö·¢µÄÏà¶ÔÓÚÄ¿±êÎÄ¼þµÄÂ·¾¶
@@ -332,6 +352,42 @@ c.´¥·¢ÊÂ¼þ
 
 68.Ä§·¨Êý×Ö
 ÔÚ´úÂëÖÐº¬Òå²»Ã÷µÄÊý×Ö£¬ÔÄ¶ÁÉÏÄÑÒÔÀí½â
+
+69.¼òÊöAjaxµÄÓÅÈ±µã
+ÓÅµã£º
+£¨1£©Ò³ÃæÎÞË¢ÐÂ£¬ÓÃ»§ÌåÑéºÃ
+£¨2£©Ê¹ÓÃÒì²½·½Ê½Óë·þÎñÆ÷Í¨ÐÅ£¬¾ßÓÐ¸ü¼ÓÑ¸ËÙµÄÏìÓ¦ÄÜÁ¦
+£¨3£©¿ÉÒÔ°ÑÒÔÇ°Ò»Ð©·þÎñÆ÷¸ºµ£µÄ¹¤×÷×ª¼Þµ½¿Í»§¶Ë£¬ÀûÓÃ¿Í»§¶Ë ÏÐÖÃµÄÄÜÁ¦À´´¦Àí£¬¼õÇá·þÎñÆ÷ºÍ´ø¿íµÂµÄ¸ºµ££¬
+½ÚÔ¼¿Õ¼äºÍ´ø¿í×âÓÃ³É±¾¡£
+£¨4£©»ùÓÚ±ê×¼»¯µÄ²¢±»¹ã·ºÖ§³ÖµÄ¼¼Êõ£¬²»ÐèÒªÏÂÔØ²å¼þ»òÕßÐ¡³ÌÐò¡£
+
+È±µã£º
+£¨1£©²»Ö§³Öä¯ÀÀÆ÷·µ»Ø°´Å¥
+£¨2£©¶ÔËÑË÷ÒýÇæµÄÖ§³Ö±È½ÏÈõ
+£¨3£©°²È«ÎÊÌâ£¬±©Â¶ÁËÓë·þÎñÆ÷½»»¥µÄÏ¸½Ú
+£¨4£©ÆÆ»µÁË³ÌÐòµÄÒì³£»úÖÆ
+£¨5£©²»ÈÝÒ×µ÷ÊÔ
+
+70.font-size:62.5%£¬Èç´ËÉè¼Æ×ÖÌå´óÐ¡µÄÔ­Òò£¨¼ÌÐøÈ·ÈÏ£©
+Ö÷ÒªÊÇÎªÁË·½±ãemºÍpxµÄÏà»¥×ª»»£¬em³õÊ¼ÖµÎª1em=16px,ÕâÑùµÄ»°£¬1.2em=19.2px£¬¿ÉÊÇÎÒÃÇÔÚÉè¼ÆÊ±ºÜÉÙ¼ûµ½ÕâÑù±íÊ¾µÄ´óÐ¡£¬
+Ò²¾ÍÊÇËµ£¬ÔÚÓÃpx±íÊ¾´óÐ¡Ê±£¬ÊýÖµÊÇ²»´øÐ¡ÊýÎ»µÄ¡£
+
+71.ÎªÊ²Ã´ÓÃ¶à¸öÓòÃûÀ´´æ´¢ÍøÕ¾×ÊÔ´»á¸üÓÐÐ§£¿
+£¨1£©CDN»º´æ¸ü·½±ã
+£¨2£©Í»ÆÆä¯ÀÀÆ÷²¢·¢ÏÞÖÆ
+£¨3£©½ÚÔ¼cookie´ø¿í
+£¨4£©½ÚÔ¼Ö÷ÓòÃûµÄÁ¬½ÓÊý£¬ÓÅ»¯Ò³ÃæÏìÓ¦ËÙ¶È
+£¨5£©·ÀÖ¹²»±ØÒªµÄ°²È«ÎÊÌâ
+
+72.cookie&localStorage&sessionStorageÈýÕßµÄÇø±ð
+´æ´¢Î»ÖÃ:
+Ê±Ð§£º
+
+73.±àÐ´AjaxµÄËÄ¸öÖ÷Òª²½Öè
+£¨1£©´´½¨Ajax¶ÔÏó
+£¨2£©±àÐ´»Øµ÷º¯Êý
+£¨3£©½¨Á¢Ò»¸öurlÇëÇó
+£¨4£©·¢ËÍÊý¾Ý
 
 =======================================
 ÐèÒªÌØ±ðÊìÁ·ÕÆÎÕµÄ¼¼ÄÜ
@@ -347,7 +403,9 @@ c.´¥·¢ÊÂ¼þ
 10.ÓÃ»§ÑéÖ¤
 
 
+JavaScript ÓïÑÔµÄ¶ÔÏóÌåÏµ£¬²»ÊÇ»ùÓÚ¡°Àà¡±µÄ£¬¶øÊÇ»ùÓÚ¹¹Ôìº¯Êý£¨constructor£©ºÍÔ­ÐÍÁ´£¨prototype£©¡£
 
+JavaScript ÓïÑÔÊ¹ÓÃ¹¹Ôìº¯Êý£¨constructor£©×÷Îª¶ÔÏóµÄÄ£°å¡£
 
 
 

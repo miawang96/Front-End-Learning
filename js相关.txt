@@ -410,6 +410,7 @@ WebStorageÖ§³ÖÊÂ¼þÍ¨Öª»úÖÆ£¬¿ÉÒÔ½«Êý¾Ý¸üÐÂµÄÍ¨Öª·¢ËÍ¸ø¼àÌýÕß¡£WebStorageµÄAPI½Ó¿
 unshift() --ÔÚÊý×éµÄ¿ªÊ¼´¦²åÈëÒ»¸ö»ò¶à¸öÔªËØ
 map() --¶ÔÊý×éÖÐµÄÃ¿Ò»¸öÔªËØ°´ÕÕ¸ø¶¨º¯Êý½øÐÐ¼Ó¹¤´¦Àí£¬²¢·µ»ØÒ»¸öÐÂÊý×é
 reverse() --·­×ªÊý×é
+find() --¸ù¾Ý²ÎÊýº¯ÊýÖÐµÄÌõ¼þ·µ»Ø·ûºÏµÄµÚÒ»¸öÔªËØ
 
 77.JavaScript ÓïÑÔµÄ¶ÔÏóÌåÏµ£¬²»ÊÇ»ùÓÚ¡°Àà¡±µÄ£¬¶øÊÇ»ùÓÚ¹¹Ôìº¯Êý£¨constructor£©ºÍÔ­ÐÍÁ´£¨prototype£©£¬Ê¹ÓÃ¹¹Ôìº¯Êý£¨constructor£©×÷Îª¶ÔÏóµÄÄ£°å¡£
 
@@ -418,6 +419,9 @@ reverse() --·­×ªÊý×é
 ËùÓÐÕýÕûÊýµÄ°´Î»È¡·´ÊÇÆä±¾Éí+1µÄ¸ºÊý
 ËùÓÐ¸ºÕûÊýµÄ°´Î»È¡·´ÊÇÆä±¾Éí+1µÄ¾ø¶ÔÖµ
 ÁãµÄ°´Î»È¡·´ÊÇ-1
+
+79.ÉîÁ´½ÓµÄ¸ÅÄî
+
 
 =======================================
 ÐèÒªÌØ±ðÊìÁ·ÕÆÎÕµÄ¼¼ÄÜ

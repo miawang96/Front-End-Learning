@@ -94,6 +94,8 @@ Production version - 用于实际的网站中，已被精简和压缩
 Development version - 用于测试和开发，代码可读
 
 15.定时器
+setTimeout(fn, period);在指点一段时间后执行一次fn函数
+setTimeInterval(fn, period);每隔一段制定的时间period执行一次fn函数
 
 16.函数定义的两种方式
 a.函数声明  function foo() {}
@@ -201,8 +203,6 @@ c.CSS
 d.AJAX  Asynchronous Javascript and XML
 e.URI Uniform Resource Identifier
 
-33.undefined和null整理归纳
-
 34.页面转发和重定向的区别
 URL:重定向开始了一个新的HTTP请求，地址栏会变；转发是服务器内部重定向，地址栏信息不变
 数据共享：重定向不能共享请求里的数据；转发则可以共享请求里的数据
@@ -268,8 +268,6 @@ https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects
 47.js垃圾回收的方法
 （1）标记清除（进入环境、离开环境）
 （2）引用计数（引用数为0时，清除该变量）
-
-48.js中的设计模式
 
 49.匿名函数的写法
 
@@ -421,6 +419,7 @@ find() --根据参数函数中的条件返回符合的第一个元素
 零的按位取反是-1
 
 79.深链接的概念
+https://blog.csdn.net/linguifa/article/details/3922951
 
 80.Javascript中的集合类（特征以及遍历方法）
 Array() 传统数组（下标访问） 关联数组（数组对象的属性）
@@ -484,6 +483,27 @@ scriptObject是与函数相关的一套静态系统，与函数实例的生命周期保持一致，函数执行完
 JavaScript引擎通过作用域链（scope chain）把多个嵌套的作用域串连在一起，并借助这个链条帮助JavaScript解释器检索变量的值。
 这个作用域链相当于一个索引表，并通过编号来存储它们的嵌套关系。当JavaScript解释器检索变量的值，会按着这个索引编号进行快速查找，
 直到找到全局对象（global object）为止，如果没有找到值，则传递一个特殊的undefined值。
+
+92.前端在什么场景会出现乱码的问题，如何解决？
+对于字符不同的字符集有不同的编码和解码的规则
+如果在某一处是用A字符集进行编码，到了另一个软件上使用B字符集的方式进行解码，就会发生乱码的问题。
+总结就是：编码不一致，可能会出现在网页显示编码、网页存储编码或数据库编码其中的环节中
+因为文字存储是按照一定的格式进行存储的，一个码代表一个字符（例如ASCII码）
+
+如何解决：保持编码一致，前后端也要注重编码统一
+
+延伸：如果HTML不指定的话，浏览器会使用本地操作系统的字符集，如果应用支持多国语言的话，就会有问题
+（本地字符集中没有该字符的解码方式）
+	
+93.异步加载Javascript的方式
+
+94.为元素绑定多个事件及触发顺序
+
+95.window.onload()和document.ready()的区别
+
+96.Javascript继承是如何工作的？（P124）
+
+97.Javascript中的异常机制
 =======================================
 需要特别熟练掌握的技能
 1.文件上传与下载

@@ -433,6 +433,10 @@ WeakMap ¾ÍÓÐºÍWeakSetÀàËÆµÄÌØÕ÷
 
 
 81.Javascript ºÍ TypescriptµÄÇø±ð
+JSËù¾ßÓÐµÄÒ»Ð©ÌØÐÔ£º²»·ÃÎÊ±¾µØ´ÅÅÌÊý¾Ý£»ÔÚä¯ÀÀÆ÷ÉÏÔËÐÐ£¬Óë²Ù×÷ÏµÍ³ÎÞ¹Ø£¬ÊÇ¿çÆ½Ì¨µÄ£»
+ÊÇÊÂ¼þÇý¶¯µÄ£»ÊÇÓÉÍø¾°¿ª·¢µÄ
+
+
 
 82.±íµ¥ÖÐµÄÎÄ¼þÊý¾ÝÁ÷´¦Àí
 
@@ -484,6 +488,7 @@ JavaScriptÒýÇæÍ¨¹ý×÷ÓÃÓòÁ´£¨scope chain£©°Ñ¶à¸öÇ¶Ì×µÄ×÷ÓÃÓò´®Á¬ÔÚÒ»Æð£¬²¢½èÖúÕâ¸
 Õâ¸ö×÷ÓÃÓòÁ´Ïàµ±ÓÚÒ»¸öË÷Òý±í£¬²¢Í¨¹ý±àºÅÀ´´æ´¢ËüÃÇµÄÇ¶Ì×¹ØÏµ¡£µ±JavaScript½âÊÍÆ÷¼ìË÷±äÁ¿µÄÖµ£¬»á°´×ÅÕâ¸öË÷Òý±àºÅ½øÐÐ¿ìËÙ²éÕÒ£¬
 Ö±µ½ÕÒµ½È«¾Ö¶ÔÏó£¨global object£©ÎªÖ¹£¬Èç¹ûÃ»ÓÐÕÒµ½Öµ£¬Ôò´«µÝÒ»¸öÌØÊâµÄundefinedÖµ¡£
 
+<<<<<<< HEAD
 92.Ç°¶ËÔÚÊ²Ã´³¡¾°»á³öÏÖÂÒÂëµÄÎÊÌâ£¬ÈçºÎ½â¾ö£¿
 ¶ÔÓÚ×Ö·û²»Í¬µÄ×Ö·û¼¯ÓÐ²»Í¬µÄ±àÂëºÍ½âÂëµÄ¹æÔò
 Èç¹ûÔÚÄ³Ò»´¦ÊÇÓÃA×Ö·û¼¯½øÐÐ±àÂë£¬µ½ÁËÁíÒ»¸öÈí¼þÉÏÊ¹ÓÃB×Ö·û¼¯µÄ·½Ê½½øÐÐ½âÂë£¬¾Í»á·¢ÉúÂÒÂëµÄÎÊÌâ¡£
@@ -504,6 +509,31 @@ JavaScriptÒýÇæÍ¨¹ý×÷ÓÃÓòÁ´£¨scope chain£©°Ñ¶à¸öÇ¶Ì×µÄ×÷ÓÃÓò´®Á¬ÔÚÒ»Æð£¬²¢½èÖúÕâ¸
 96.Javascript¼Ì³ÐÊÇÈçºÎ¹¤×÷µÄ£¿£¨P124£©
 
 97.JavascriptÖÐµÄÒì³£»úÖÆ
+=======
+92.exportÓï·¨
+¸öÈËÀí½â£º¾ÍÊÇ°ÑÒ»¸öÎÄ¼þÖÐµÄ±äÁ¿£¬º¯Êý£¬ÎÄ¼þ£¬Ä£¿éµÈ±©Â¶³öÈ¥£¬Ê¹µÃ±ðµÄÎÄ¼þ¿ÉÒÔÓÃimportÕâ¸ö¹Ø¼ü×ÖÀ´»ñÈ¡µ½
+export¼Ó/²»¼Ó defaultÁ½ÕßµÄÇø±ð£¨¡ý¡ý£©
+ÔÚÒ»¸öÎÊ¼Û»òÄ£¿éÖÐ£¬export¡¢import¿ÉÒÔÓÐ¶à¸ö£¬export default½ö¿ÉÒÔÓÐÒ»¸ö
+ÔÚÎÄ¼þÖÐµ¼ÈëµÄ·½Ê½Ò²²»Ò»Ñù Ã»¼ÓdefaultµÄÄÚÈÝ£¬ÒªÓÃ{}À¨ÆðÀ´£¬¼ÓÁËdefaultµÄÄÚÈÝ£¬²»ÓÃÀ¨ÆðÀ´
+exportºÍexport default ¿ÉÒÔÍ¬Ê±ÔÚÒ»¸öÎÄ¼þÖÐÂð£¿
+¿ÉÒÔ¡£µ«ÊÇÒª×¢ÒâµÄÊÇ£¬ÔÚÒ»¸öÄ£¿éÖÐ£¬export defaultÔÚÒ»¸öÄ£¿éÖ»ÔÊÐíÏòÍâ±©Â¶Ò»´Î
+
+93.npm ºÍ webpackµÄ¸ÅÄî
+webpack ÊÇÒ»¸öÏÖ´úµÄ JavaScript Ó¦ÓÃ³ÌÐòµÄÄ£¿é´ò°üÆ÷(module bundler)¡£
+
+webpack:Ä£¿éÖ®¼äÏà»¥¶ÀÁ¢ÓÖÏà»¥ÒÀÀµ
+webpack Í¨¹ý loader ¿ÉÒÔÖ§³Ö¸÷ÖÖÓïÑÔºÍÔ¤´¦ÀíÆ÷±àÐ´Ä£¿é¡£
+webpack ÊÇ¸ß¶È¿ÉÅäÖÃµÄ£¬ÈçºÎÄ£¿é»¯´ò°ü¡¢¼ÓÔØ¶¼¿ÉÒÔ»ùÓÚÅäÖÃÎÄ¼þ¶¨ÖÆ¡£
+webpack µÄÄ¬ÈÏÅäÖÃÎÄ¼þÊÇ webpack.config.js¡£
+webpack ´ÓÃüÁîÐÐ»òÅäÖÃÎÄ¼þÖÐ¶¨ÒåµÄÒ»¸öÄ£¿éÁÐ±í¿ªÊ¼£¬´¦ÀíÄãµÄÓ¦ÓÃ³ÌÐò¡£ ´ÓÕâÐ©Èë¿ÚÆðµã¿ªÊ¼£¬webpack µÝ¹éµØ¹¹½¨Ò»¸öÒÀÀµÍ¼±í£¬
+Õâ¸öÒÀÀµÍ¼±í°üº¬×ÅÓ¦ÓÃ³ÌÐòËùÐèµÄÃ¿¸öÄ£¿é£¬È»ºó½«ËùÓÐÕâÐ©Ä£¿é´ò°üÎªÉÙÁ¿µÄ bundle- Í¨³£Ö»ÓÐÒ»¸ö - ¿ÉÓÉä¯ÀÀÆ÷¼ÓÔØ¡£
+
+webpack °ÑÃ¿¸öÎÄ¼þ(.css, .html, .scss, .jpg, etc.) ¶¼×÷ÎªÄ£¿é´¦Àí¡£È»¶ø webpack Ö»Àí½â JavaScript¡£
+webpack loader »á½«ÕâÐ©ÎÄ¼þ×ª»»ÎªÄ£¿é£¬¶ø×ª»»ºóµÄÎÄ¼þ»á±»Ìí¼Óµ½ÒÀÀµÍ¼±íÖÐ¡£
+
+npm:°ü¹ÜÀí¹¤¾ß
+
+>>>>>>> deeb7042627b4da29026670350839dabf22a52c6
 =======================================
 ÐèÒªÌØ±ðÊìÁ·ÕÆÎÕµÄ¼¼ÄÜ
 1.ÎÄ¼þÉÏ´«ÓëÏÂÔØ

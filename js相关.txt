@@ -488,7 +488,6 @@ JavaScriptÒýÇæÍ¨¹ý×÷ÓÃÓòÁ´£¨scope chain£©°Ñ¶à¸öÇ¶Ì×µÄ×÷ÓÃÓò´®Á¬ÔÚÒ»Æð£¬²¢½èÖúÕâ¸
 Õâ¸ö×÷ÓÃÓòÁ´Ïàµ±ÓÚÒ»¸öË÷Òý±í£¬²¢Í¨¹ý±àºÅÀ´´æ´¢ËüÃÇµÄÇ¶Ì×¹ØÏµ¡£µ±JavaScript½âÊÍÆ÷¼ìË÷±äÁ¿µÄÖµ£¬»á°´×ÅÕâ¸öË÷Òý±àºÅ½øÐÐ¿ìËÙ²éÕÒ£¬
 Ö±µ½ÕÒµ½È«¾Ö¶ÔÏó£¨global object£©ÎªÖ¹£¬Èç¹ûÃ»ÓÐÕÒµ½Öµ£¬Ôò´«µÝÒ»¸öÌØÊâµÄundefinedÖµ¡£
 
-<<<<<<< HEAD
 92.Ç°¶ËÔÚÊ²Ã´³¡¾°»á³öÏÖÂÒÂëµÄÎÊÌâ£¬ÈçºÎ½â¾ö£¿
 ¶ÔÓÚ×Ö·û²»Í¬µÄ×Ö·û¼¯ÓÐ²»Í¬µÄ±àÂëºÍ½âÂëµÄ¹æÔò
 Èç¹ûÔÚÄ³Ò»´¦ÊÇÓÃA×Ö·û¼¯½øÐÐ±àÂë£¬µ½ÁËÁíÒ»¸öÈí¼þÉÏÊ¹ÓÃB×Ö·û¼¯µÄ·½Ê½½øÐÐ½âÂë£¬¾Í»á·¢ÉúÂÒÂëµÄÎÊÌâ¡£
@@ -509,7 +508,7 @@ JavaScriptÒýÇæÍ¨¹ý×÷ÓÃÓòÁ´£¨scope chain£©°Ñ¶à¸öÇ¶Ì×µÄ×÷ÓÃÓò´®Á¬ÔÚÒ»Æð£¬²¢½èÖúÕâ¸
 96.Javascript¼Ì³ÐÊÇÈçºÎ¹¤×÷µÄ£¿£¨P124£©
 
 97.JavascriptÖÐµÄÒì³£»úÖÆ
-=======
+
 92.exportÓï·¨
 ¸öÈËÀí½â£º¾ÍÊÇ°ÑÒ»¸öÎÄ¼þÖÐµÄ±äÁ¿£¬º¯Êý£¬ÎÄ¼þ£¬Ä£¿éµÈ±©Â¶³öÈ¥£¬Ê¹µÃ±ðµÄÎÄ¼þ¿ÉÒÔÓÃimportÕâ¸ö¹Ø¼ü×ÖÀ´»ñÈ¡µ½
 export¼Ó/²»¼Ó defaultÁ½ÕßµÄÇø±ð£¨¡ý¡ý£©
@@ -533,15 +532,12 @@ webpack loader »á½«ÕâÐ©ÎÄ¼þ×ª»»ÎªÄ£¿é£¬¶ø×ª»»ºóµÄÎÄ¼þ»á±»Ìí¼Óµ½ÒÀÀµÍ¼±íÖÐ¡£
 
 npm:°ü¹ÜÀí¹¤¾ß
 
-<<<<<<< HEAD
+
 94.vuex
 ÓÃÍ¾£ºÓÃÓÚ×é¼þÖ®¼ä¹²ÏíÊý¾Ý£¬¾ßÓÐÏìÓ¦Ê½µÄÌØÐÔ£¬ÐÞ¸ÄstoreÖÐµÄÊý¾Ý£¬Ïà¹ØµÄ×é¼þÄÚÈÝ»áÊµÊ±¸üÐÂ
 ÕâÒ²ÊÇwebStorage²»ÄÜ×öµ½µÄ
 ×¢Òâ£º²»ÄÜÖ±½Ó¸Ä±ästoreµÄÖµ£¬¸ü¸Ä×´Ì¬Î¨Ò»µÄÍ¾¾¶ÊÇcommit mutation
 
-=======
->>>>>>> deeb7042627b4da29026670350839dabf22a52c6
->>>>>>> 3c1de389cf67f9b59d8d343d4d172200b4cfa3d5
 =======================================
 ÐèÒªÌØ±ðÊìÁ·ÕÆÎÕµÄ¼¼ÄÜ
 1.ÎÄ¼þÉÏ´«ÓëÏÂÔØ

@@ -442,8 +442,11 @@ JSËù¾ßÓÐµÄÒ»Ð©ÌØÐÔ£º²»·ÃÎÊ±¾µØ´ÅÅÌÊý¾Ý£»ÔÚä¯ÀÀÆ÷ÉÏÔËÐÐ£¬Óë²Ù×÷ÏµÍ³ÎÞ¹Ø£¬ÊÇ¿çÆ½Ì¨
 
 83.Éè¼ÆÄ£Ê½
 ¹Û²ìÕßÄ£Ê½£º
-µ¥ÀýÄ£Ê½£º
-¹¤³§Ä£Ê½
+µ¥ÀýÄ£Ê½£º±£Ö¤Ò»¸öÀàÖ»ÓÐÒ»¸öÊµÀý¶ÔÏó£¬²¢Ìá¹©Ò»¸ö·ÃÎÊËüµÄÈ«¾Ö·ÃÎÊµã£¨ÔÚÒ»¸öwebÓ¦ÓÃ³ÌÐòÖÐ£¬Í¨³£
+ÐèÒªÒ»¸öµ¥ÀýÀ´¹ÜÀíÓ¦ÓÃ³ÌÐò¼¶µÄÐÅÏ¢£©
+¹¤³§Ä£Ê½£º
+Ä£¿éÄ£Ê½£ºÎªµ¥Àý´´½¨Ë½ÓÐ±äÁ¿ºÍÌØÈ¨·½·¨¡£½«Ò»¸ö¶ÔÏó×ÖÃæÁ¿×÷Îª¹¹Ôìº¯ÊýµÄÖµ·µ»Ø£¬·µ»ØµÄ¶ÔÏó×ÖÃæ
+Á¿ÖÐÖ»°üº¬¿ÉÒÔ¹«¿ªµÄÊôÐÔºÍ·½·¨
 
 84.Object.assign()
 Object.keys()
@@ -488,7 +491,6 @@ JavaScriptÒýÇæÍ¨¹ý×÷ÓÃÓòÁ´£¨scope chain£©°Ñ¶à¸öÇ¶Ì×µÄ×÷ÓÃÓò´®Á¬ÔÚÒ»Æð£¬²¢½èÖúÕâ¸
 Õâ¸ö×÷ÓÃÓòÁ´Ïàµ±ÓÚÒ»¸öË÷Òý±í£¬²¢Í¨¹ý±àºÅÀ´´æ´¢ËüÃÇµÄÇ¶Ì×¹ØÏµ¡£µ±JavaScript½âÊÍÆ÷¼ìË÷±äÁ¿µÄÖµ£¬»á°´×ÅÕâ¸öË÷Òý±àºÅ½øÐÐ¿ìËÙ²éÕÒ£¬
 Ö±µ½ÕÒµ½È«¾Ö¶ÔÏó£¨global object£©ÎªÖ¹£¬Èç¹ûÃ»ÓÐÕÒµ½Öµ£¬Ôò´«µÝÒ»¸öÌØÊâµÄundefinedÖµ¡£
 
-<<<<<<< HEAD
 92.Ç°¶ËÔÚÊ²Ã´³¡¾°»á³öÏÖÂÒÂëµÄÎÊÌâ£¬ÈçºÎ½â¾ö£¿
 ¶ÔÓÚ×Ö·û²»Í¬µÄ×Ö·û¼¯ÓÐ²»Í¬µÄ±àÂëºÍ½âÂëµÄ¹æÔò
 Èç¹ûÔÚÄ³Ò»´¦ÊÇÓÃA×Ö·û¼¯½øÐÐ±àÂë£¬µ½ÁËÁíÒ»¸öÈí¼þÉÏÊ¹ÓÃB×Ö·û¼¯µÄ·½Ê½½øÐÐ½âÂë£¬¾Í»á·¢ÉúÂÒÂëµÄÎÊÌâ¡£
@@ -502,6 +504,7 @@ JavaScriptÒýÇæÍ¨¹ý×÷ÓÃÓòÁ´£¨scope chain£©°Ñ¶à¸öÇ¶Ì×µÄ×÷ÓÃÓò´®Á¬ÔÚÒ»Æð£¬²¢½èÖúÕâ¸
 	
 93.Òì²½¼ÓÔØJavascriptµÄ·½Ê½
 
+
 94.ÎªÔªËØ°ó¶¨¶à¸öÊÂ¼þ¼°´¥·¢Ë³Ðò
 
 95.window.onload()ºÍdocument.ready()µÄÇø±ð
@@ -509,7 +512,7 @@ JavaScriptÒýÇæÍ¨¹ý×÷ÓÃÓòÁ´£¨scope chain£©°Ñ¶à¸öÇ¶Ì×µÄ×÷ÓÃÓò´®Á¬ÔÚÒ»Æð£¬²¢½èÖúÕâ¸
 96.Javascript¼Ì³ÐÊÇÈçºÎ¹¤×÷µÄ£¿£¨P124£©
 
 97.JavascriptÖÐµÄÒì³£»úÖÆ
-=======
+
 92.exportÓï·¨
 ¸öÈËÀí½â£º¾ÍÊÇ°ÑÒ»¸öÎÄ¼þÖÐµÄ±äÁ¿£¬º¯Êý£¬ÎÄ¼þ£¬Ä£¿éµÈ±©Â¶³öÈ¥£¬Ê¹µÃ±ðµÄÎÄ¼þ¿ÉÒÔÓÃimportÕâ¸ö¹Ø¼ü×ÖÀ´»ñÈ¡µ½
 export¼Ó/²»¼Ó defaultÁ½ÕßµÄÇø±ð£¨¡ý¡ý£©
@@ -533,7 +536,35 @@ webpack loader »á½«ÕâÐ©ÎÄ¼þ×ª»»ÎªÄ£¿é£¬¶ø×ª»»ºóµÄÎÄ¼þ»á±»Ìí¼Óµ½ÒÀÀµÍ¼±íÖÐ¡£
 
 npm:°ü¹ÜÀí¹¤¾ß
 
->>>>>>> deeb7042627b4da29026670350839dabf22a52c6
+98.Òª¼ì²âÒ»¸ö±äÁ¿ÊÇ»ù±¾Êý¾ÝÀàÐÍ»¹ÊÇÒýÓÃÊý¾ÝÀàÐÍ£¿
+ÓÃtypeofÊÇ×î¼Ñ¹¤¾ß
+Èç¹ûÊÇÒýÓÃÊý¾ÝÀàÐÍ£¬Ôò·µ»Ø object
+·ñÔò·µ»Øundefined number string boolean functionÖÐµÄÒ»ÖÖ
+
+×¢Òâ£ºÔÚIEºÍfirefoxÖÐ£¬ÕýÔò±í´ïÊ½ÓÃtypeof»á·µ»Øobject£¬ÔÚÆäËûä¯ÀÀÆ÷ÖÐ·µ»Øfunction
+
+99.Òª¼ì²âÒ»¸öÒýÓÃÊý¾ÝÀàÐÍµÄ¾ßÌåÀàÐÍ£¿
+ÓÃinstanceof£¬°´×ÖÃæÒâË¼£¬ËüÓÃÀ´ÅÐ¶ÏÒ»¸ö±äÁ¿ÊÇ·ñÊÇÄ³Ò»¸ö¹¹ÔìÆ÷µÄÊµÀý£¬¼´ÊÇ·ñÊÇÄ³Ò»ÖÐÀàÐÍµÄ
+
+100.withÓï¾ä
+ÓÃÍ¾£ºÓÃÓÚÉèÖÃ´úÂëÔÚÌØ¶¨¶ÔÏóÖÐµÄ×÷ÓÃÓò
+
+101.×÷ÓÃÓòµÈÏà¹Ø¸ÅÄî
+×÷ÓÃÓòÁ´ÔÚº¯Êý³õÊ¼»¯Íê³Éºó±ã´æÔÚ£¬¶ø×÷ÓÃÓò¡¢±äÁ¿¶ÔÏó¡¢Ö´ÐÐ»·¾³Ö»ÓÐÔÚº¯Êý±»Ö´ÐÐÊ±²Å´´½¨¡£
+Ö´ÐÐ½áÊøºó£¬º¯ÊýµÄ×÷ÓÃÓò¡¢×÷ÓÃÓòÁ´¡¢Ö´ÐÐ»·¾³±»Ïú»Ù£»¶ø±äÁ¿¶ÔÏóÈÔÓÐ¿ÉÄÜÁôÔÚÄÚ´æÖÐ£¨Èç¹ûº¯ÊýÄÚ²¿
+ÓÐ±Õ°ü£¬±Õ°ü±£´æµÄÊÇÕû¸ö±äÁ¿¶ÔÏó£¬Ôòº¯ÊýÖ´ÐÐºó±äÁ¿¶ÔÏóÈÔÈ»ÁôÔÚÄÚ´æ£¬Ö±µ½±Õ°üÖ´ÐÐ½áÊø£¬¸Ã±äÁ¿¶ÔÏó²Å»á±»Ïú»Ù£©
+
+102.±äÁ¿¶ÔÏó
+Ã¿¸öÖ´ÐÐ»·¾³¶¼ÓÐÓëÖ®¹ØÁªµÄ±äÁ¿¶ÔÏó£¬Ö´ÐÐ»·¾³ÖÐ¶¨ÒåµÄËùÓÐ±äÁ¿ºÍº¯Êý¶¼»á±£´æÔÚÕâ¸ö¶ÔÏóÖÐ¡£
+
+103.Ö´ÐÐ»·¾³
+¶¨ÒåÁË±äÁ¿»òº¯ÊýÓÐÈ¨·ÃÎÊµÄÆäËûÊý¾Ý£¬¾ö¶¨ÁËËüÃÇ¸÷×ÔµÄÐÐÎª¡£ËùÓÐµÄÖ´ÐÐ»·¾³»á´æ·ÅÔÚÖ´ÐÐ»·¾³ÖÐ£¬
+Ö»ÓÐÕ»¶¥µÄÖ´ÐÐ»·¾³²ÅÓÐÖ´ÐÐÈ¨¡£
+
+ÄäÃûº¯ÊýµÄÖ´ÐÐ»·¾³¾ßÓÐÈ«¾ÖÐÔ£¬Òò´ËÆäthis¶ÔÏóÍ¨³£Ö¸Ïòwindow¡£
+
+104.µÝ¹éº¯Êý
+
 =======================================
 ÐèÒªÌØ±ðÊìÁ·ÕÆÎÕµÄ¼¼ÄÜ
 1.ÎÄ¼þÉÏ´«ÓëÏÂÔØ

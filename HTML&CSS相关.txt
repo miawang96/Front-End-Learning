@@ -129,3 +129,34 @@ DTD:Document Type Definition  文档类型定义
 35.CSS四种调用方式及优先级
 行内样式>内嵌样式>外联样式>导入样式
 （？   !important）
+
+36.CSS中的长度单位
+a.相对字体长度单位:em ex
+b.相对视区长度单位:vh vw  vmin vmax
+c.绝对长度单位: px
+
+37.CSS伪类与伪元素
+a. :link             --选择所有未访问链接
+b. :visited        --选择所有访问过的链接
+c. :active          --选择正在活动的元素
+d. :hover          --把鼠标放在元素上的状态
+e. :focus           --选择元素输入后具有焦点
+f. :first-letter    --选择每个元素的第一个字母
+g. :first-line      --选择每个元素的第一行
+h. :first-child    --选择器匹配属于任意元素的第一个子元素
+i. :before          --在每个元素之前插入内容
+j. :after             --在每个元素之后插入内容
+ 
+38.clear属性
+规定元素的哪一侧不允许其他浮动元素
+
+
+
+
+
+
+
+
+
+
+

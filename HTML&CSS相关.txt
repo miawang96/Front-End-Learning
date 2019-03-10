@@ -150,13 +150,27 @@ j. :after             --在每个元素之后插入内容
 38.clear属性
 规定元素的哪一侧不允许其他浮动元素
 
+36.CSS属性
+display: flex;弹性布局，用来为盒装模型提供最大的灵活性
+flex-direction: 灵活规定项目的方向
+justify-content:主轴上的对齐方式
+align-items：交叉轴上的对齐方式
+box-sizing:指定width的长度所包含的内容
+  --content-box 只有content算在width范围内
+  --padding-box padding也算在width范围内
+  --border-box border也算在width范围内
+white-space:首尾空白以及换行…
+word-wrap：控制单词如何被拆分换行
+  --break-word 只有当一个单词一整行都显示不下时，才会换行
+word-break：控制单词如何被拆分换行（break:拆分  按单词还是不按单词）
+
+<img mode='widthFix' />小程序中的属性，宽度不变，高度自动变化，保持原图宽高比不变
 
 
 
+37.如何让图片保留原始尺寸呈现
+
+38.展示图片的方式？
 
 
-
-
-
-
-
+rpx

@@ -1,0 +1,7 @@
+
+1.<script>标签中的属性有哪些？
+
+2.如何让chrome支持小于12px的文字？
+（因为在chrome浏览器中，最小的字体大小为12px）
+通过设置css属性 -webkit-transform:scale(0.8)->对文字进行缩放
+transform属性可以实现缩放，旋转，移动，倾斜等效果

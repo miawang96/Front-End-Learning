@@ -1,8 +1,8 @@
 
 
-#07010b
-#ffffff
-#4dc9ef
+
+
+
 #f095a4
 #b93e02
 #3e0c0d
@@ -16,63 +16,195 @@
     position: relative;
   }
 
-  #pore {
+  .pore {
     border-radius: 50%;
     background-color: #c4b127;
     border: 1px solid #c4b127;
     position: relative;
   }
 
-  .pore_1 {
-    width: 30px;
-    height: 50px;
-    top: 30px;
+  #pore_1 {
+    width: 45px;
+    height: 60px;
+    top: 28px;
     left: 300px;
   }
 
-  .pore_2 {
+  #pore_2 {
     width: 25px;
     height: 40px;
     top: 80px;
     left: 60px;
+    transform: rotate(8deg);
   }
 
-  .pore_3 {
+  #pore_3 {
     width: 20px;
     height: 30px;
     top: 50px;
     left: 330px;
+    transform: rotate(-8deg);
   }
 
-  .pore_4 {
+  #pore_4 {
     width: 20px;
     height: 25px;
     top: 150px;
     left: 55px;
   }
 
-  .pore_5 {
-    width: 25px;
-    height: 40px;
-    top: 80px;
-    left: 60px;
+  #pore_5 {
+    width: 35px;
+    height: 45px;
+    top: 200px;
+    left: 90px;
+    transform: rotate(8deg);
   }
 
+  #pore_6 {
+    width: 20px;
+    height: 25px;
+    top: 280px;
+    left: 20px;
+    transform: rotate(3deg);
+  }
+
+  #pore_7 {
+    width: 15px;
+    height: 25px;
+    top: 290px;
+    left: 160px;
+    transform: rotate(-20deg);
+  }
+
+  #pore_8 {
+    width: 15px;
+    height: 25px;
+    top: 190px;
+    left: 280px;
+    transform: rotate(45deg);
+  }
+
+  .face {
+    position: absolute;
+    top: 180px;
+    left: 90px;
+    border: 1px solid #07010b;
+    height: 220px;
+    width: 220px;
+  }
+
+  .eye {
+    width: 65px;
+    height: 75px;
+    border: 3px solid #07010b;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    background-color: #ffffff;
+  }
+
+  #eye_left {
+    left: 45px;
+    transform: rotate(-5deg);
+  }
+
+  #eye_right {
+    left: 113px;
+    transform: rotate(5deg);
+  }
+
+  .eyeball {
+    position: absolute;
+    width: 30px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #4dc9ef;
+    top: 18px;
+    border: 3px solid #07010b;
+  }
+
+  .eyelash {
+    width: 4px;
+    height: 18px;
+    position: absolute;
+    background-color: #07010b;
+  }
+
+  #eyelash_left_one {
+    left: 55px;
+    top: 8px;
+    transform: rotate(-15deg);
+  }
+
+  #eyelash_left_two {
+    left: 80px;
+    top: 1px;
+    transform: rotate(3deg);
+  }
+
+  #eyelash_left_three {
+    left: 102px;
+    top: 7px;
+    transform: rotate(15deg);
+  }
+
+  #eyelash_right_one {
+    left: 125px;
+    top: 8px;
+    transform: rotate(-15deg);
+  }
+
+  #eyelash_right_two {
+    left: 150px;
+    top: 1px;
+    transform: rotate(3deg);
+  }
+
+  #eyelash_right_three {
+    left: 172px;
+    top: 7px;
+    transform: rotate(15deg);
+  }
 </style>
 
 <html>
   <body>
     <div class="container">
-      <div id="pore" class="pore_1"></div>
-      <div id="pore" class="pore_2"></div>
-      <div id="pore" class="pore_3"></div>
-      <div id="pore" class="pore_4"></div>
-      <div id="pore" class="pore_5"></div>
-      <div id="pore" class="pore_6"></div>
-      <div id="pore" class="pore_7"></div>
-      <div id="pore" class="pore_8"></div>
-      <div id="pore" class="pore_9"></div>
-      <div class="face"></div>
+      <div class="pore" id="pore_1"></div>
+      <div class="pore" id="pore_2"></div>
+      <div class="pore" id="pore_3"></div>
+      <div class="pore" id="pore_4"></div>
+      <div class="pore" id="pore_5"></div>
+      <div class="pore" id="pore_6"></div>
+      <div class="pore" id="pore_7"></div>
+      <div class="pore" id="pore_8"></div>
+      <div class="face">
+        <div class="eyelash" id="eyelash_left_one"></div>
+        <div class="eyelash" id="eyelash_left_two"></div>
+        <div class="eyelash" id="eyelash_left_three"></div>
+        <div class="eye" id="eye_left">
+            <div class="eyeball" id="eyeball_left">
+                <div class="inner_eyeball"></div>
+              </div>
+        </div>
+        <div class="eyelash" id="eyelash_right_one"></div>
+        <div class="eyelash" id="eyelash_right_two"></div>
+        <div class="eyelash" id="eyelash_right_three"></div>
+        <div class="eye" id="eye_right">
+          <div class="eyeball" id="eyeball_right">
+            <div class="inner_eyeball"></div>
+          </div>
+        </div>
+        <div class="nose"></div>
+        <div class="dimple" id="dimple_left"></div>
+        <div class="dimple" id="dimple_right"></div>
+        <div class="mouth">
+          <div class="tooth" id="tooth_left"></div>
+          <div class="tooth" id="tooth_right"></div>
+          <div class="tongue"></div>
+        </div>
+      </div>
     </div>
   </body>
 </html>

@@ -1,7 +1,3 @@
-#f095a4
-#b93e02
-
-
 <style>
   .container {
     margin: 0 auto;
@@ -84,7 +80,6 @@
     position: absolute;
     top: 180px;
     left: 90px;
-    border: 1px solid #07010b;
     height: 220px;
     width: 220px;
   }
@@ -209,7 +204,7 @@
     background-color: #f7ed2c;
     position: absolute;
     left: 48px;
-    top: 100px;
+    top: 96px;
     z-index: 3;
     border-top-color: transparent;
   }
@@ -224,6 +219,94 @@
     left: 48px;
     top: 100px;
     border-top-color: transparent;
+  }
+
+  .tooth {
+    width: 20px;
+    height: 18px;
+    background-color: #ffffff;
+    border: 2px solid #000;
+    position: absolute;
+  }
+
+  #tooth_left {
+    top: 20px;
+    left: 34px;
+    transform: rotate(6deg);
+  }
+
+  #tooth_right {
+    top: 20px;
+    left: 72px;
+    transform: rotate(-6deg);
+  }
+
+  .dimple {
+    width: 40px;
+    height: 23px;
+    border: 3px solid #b93e02;
+    border-radius: 0% 0% 50% 50%/0% 0% 100% 100%;
+    position: absolute;
+    top: 75px;
+    border-top-color: transparent;
+    background-color: #f7ed2c;
+  }
+
+  #dimple_left {
+    left: 30px;
+    transform: rotate(170deg);
+  }
+
+  #dimple_right {
+    left: 155px;
+    transform: rotate(190deg);
+  }
+
+  .freckle {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #b93e02;
+    position: absolute;
+  }
+
+  #freckle_left_one,
+  #freckle_right_one {
+    right: 9px;
+    top: 12px;
+  }
+
+  #freckle_left_two,
+  #freckle_right_two {
+    right: 17px;
+    top: 5px;
+  }
+
+  #freckle_left_three,
+  #freckle_right_three {
+    right: 24px;
+    top: 16px;
+  }
+
+  .tongue {
+    position: absolute;
+    width: 45px;
+    height: 13px;
+    background-color: #f095a4;
+    border-radius: 50%;
+
+  }
+
+  #tongue_left {
+    transform: rotate(13deg);
+    top: 54px;
+    left: 31px;
+  }
+
+  #tongue_right {
+    transform: rotate(-20deg);
+    top: 52px;
+    left: 60px;
   }
 </style>
 
@@ -258,13 +341,22 @@
         </div>
       </div>
       <div class="nose"></div>
-      <div class="dimple" id="dimple_left"></div>
-      <div class="dimple" id="dimple_right"></div>
+      <div class="dimple" id="dimple_left">
+        <div class="freckle" id="freckle_left_one"></div>
+        <div class="freckle" id="freckle_left_two"></div>
+        <div class="freckle" id="freckle_left_three"></div>
+      </div>
+      <div class="dimple" id="dimple_right">
+        <div class="freckle" id="freckle_right_one"></div>
+        <div class="freckle" id="freckle_right_two"></div>
+        <div class="freckle" id="freckle_right_three"></div>
+      </div>
       <div class="mouth_top"></div>
       <div class="mouth_bottom">
         <div class="tooth" id="tooth_left"></div>
         <div class="tooth" id="tooth_right"></div>
-        <div class="tongue"></div>
+        <div class="tongue" id="tongue_left"></div>
+        <div class="tongue" id="tongue_right"></div>
       </div>
     </div>
   </div>

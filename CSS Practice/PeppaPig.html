@@ -1,14 +1,239 @@
-#f9e6ec  背景
-#dd9fc6  耳朵外围
-#fbb4e0  耳朵
-#ff8ad0  脸蛋
-#d4629e  嘴巴
-#efbede  手
-#ce6da3  鼻孔
-#d53d49
-#e7545e
+#ce6da3 鼻孔
+<style>
+  .container {
+    margin: 0 auto;
+    width: 400px;
+    height: 600px;
+    background-color: #f9e6ec;
+    position: relative;
+  }
 
+  .body {
+    width: 150px;
+    height: 130px;
+    border: 3px solid #d53d49;
+    background-color: #e7545e;
+    border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+    position: absolute;
+    top: 230px;
+    left: 120px;
+  }
 
+  .leg {
+    position: absolute;
+    width: 5px;
+    height: 30px;
+    background-color: #efbede;
+    top: 366px;
+  }
 
+  #leg_left {
+    left: 160px;
+  }
 
+  #leg_right {
+    left: 230px;
+  }
 
+  .foot {
+    width: 49px;
+    height: 12px;
+    border-radius: 187% 58% 50% 180%/123% 130% 100% 113%;
+    background-color: #000;
+    position: absolute;
+    top: 394px;
+  }
+
+  #foot_left {
+    left: 155px;
+  }
+
+  #foot_right {
+    left: 225px;
+  }
+
+  .mouth {
+    position: absolute;
+    border: 4px solid #d4629e;
+    height: 10px;
+    width: 40px;
+    border-radius: 0% 0% 50% 50%/0% 0% 100% 100%;
+    border-top-color: transparent;
+    top: 230px;
+    left: 200px;
+    z-index: 4;
+    transform: rotate(-20deg);
+  }
+
+  .blusher {
+    background-color: #ff8ad0;
+    width: 30px;
+    height: 35px;
+    border-radius: 50%;
+    position: absolute;
+    opacity: .7;
+    top: 205px;
+    left: 160px;
+    z-index: 4;
+    transform: rotate(-30deg);
+  }
+
+  .head {
+    width: 160px;
+    height: 110px;
+    background-color: #fbb4e0;
+    border: 3px solid #dd9fc6;
+    border-radius: 50% 95% 50% 78%/80% 87% 50% 70%;
+    position: absolute;
+    top: 150px;
+    left: 138px;
+    z-index: 1;
+    transform: rotate(-35deg);
+  }
+
+  .head_hide_board {
+    width: 103px;
+    height: 75px;
+    background-color: #f9e6ec;
+    position: absolute;
+    top: 42px;
+    left: 78px;
+  }
+
+  .head_jaw {
+    width: 30px;
+    height: 45px;
+    top: 65px;
+    left: 76px;
+    
+  }
+
+  .head_nose {
+    position: absolute;
+    width: 30px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fbb4e0;
+    border: 3px solid #dd9fc6;
+    left: 124px;
+    top: 26px;
+    z-index: 3;
+  }
+
+  .head_jaw, .head_bottom_nose {
+    position: absolute;
+    background-color: #fbb4e0;
+    border-radius: 0% 0% 100% 0%/0% 0% 100% 0%;
+    border-right: 3px solid #dd9fc6;
+    border-bottom: 3px solid #dd9fc6;
+  }
+  
+  .head_bottom_nose {
+    width: 50px;
+    height: 6px;
+    left: 103px;
+    top: 64px;
+  }
+
+  .head_hide_bar {
+    position: absolute;
+    width: 55px;
+    height: 30px;
+    background-color: #fbb4e0;
+    top: 40px;
+    left: 75px;
+  }
+
+  .arm {
+    width: 5px;
+    height: 50px;
+    background-color: #efbede;
+    position: absolute;
+    top: 275px;
+  }
+
+  #arm_left {
+    left: 113px;
+    transform: rotate(58deg);
+    border-radius: 49% 0% 0% 77% / 53% 0% 0% 47%;
+  }
+
+  #arm_right {
+    left: 279px;
+    transform: rotate(-58deg);
+    border-radius:  0% 49% 77% 0%/0% 53% 47% 0%;
+  }
+
+  .tail {
+    background-color: #f9e6ec;
+    border: 5px solid #efbede;
+    position: absolute;
+  }
+
+  #tail_one {
+    top: 80px;
+    width: 10px;
+    height: 6px;
+    border-radius: 40%;
+    border-top-color: transparent;
+  }
+
+  #tail_two {
+    border-radius: 50%;
+    top: 100px;
+    width: 6px;
+    height: 10px;
+    
+  }
+
+  #tail_three {}
+</style>
+
+<html>
+<meta>
+<title>小猪佩奇</title>
+</meta>
+
+<body>
+  <div class="container">
+    <!-- 耳朵 -->
+    <div class="ear" id="ear_left"></div>
+    <div class="ear" id="ear_right"></div>
+    <!-- 眼睛 -->
+    <div class="eye" id="eye_left"></div>
+    <div class="eye" id="eye_right"></div>
+    <!-- 嘴巴 -->
+    <div class="mouth"></div>
+    <!-- 腮红 -->
+    <div class="blusher"></div>
+    <!-- 头 -->
+    <div class="head">
+      <div class="head_hide_board"></div>
+      <div class="head_jaw"></div>
+      <div class="head_nose"></div>
+      <div class="head_bottom_nose">
+        <!-- 鼻子 -->
+        <div class="nose_hole" id="nose_hole_left"></div>
+        <div class="nose_hole" id="nose_hole_right"></div>
+      </div>
+      <div class="head_hide_bar"></div>
+    </div>
+    <!-- 手臂 -->
+    <div class="arm" id="arm_left"></div>
+    <div class="arm" id="arm_right"></div>
+    <!-- 身体 -->
+    <div class="body"></div>
+    <!-- 腿 -->
+    <div class="leg" id="leg_left"></div>
+    <div class="leg" id="leg_right"></div>
+    <!-- 脚 -->
+    <div class="foot" id="foot_left"></div>
+    <div class="foot" id="foot_right"></div>
+    <!-- 尾巴 -->
+    <div class="tail" id="tail_one"></div>
+    <div class="tail" id="tail_two"></div>
+    <div class="tail" id="tail_three"></div>
+  </div>
+</body>
+
+</html>

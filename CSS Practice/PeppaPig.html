@@ -1,4 +1,3 @@
-#ce6da3 鼻孔
 <style>
   .container {
     margin: 0 auto;
@@ -135,6 +134,24 @@
     top: 64px;
   }
 
+  .nose_hole {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: #ce6da3;
+    position: absolute;
+  }
+
+  #nose_hole_left {
+    top: 14px;
+    left: 5px;
+  }
+
+  #nose_hole_right {
+    top: 14px;
+    left: 19px;
+  }
+
   .head_hide_bar {
     position: absolute;
     width: 55px;
@@ -187,6 +204,56 @@
   }
 
   #tail_three {}
+
+  .eye {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    border: 5px solid #dd9fc6;
+    background-color: #fff;
+    z-index: 3;
+  }
+
+  #eye_left {
+    top: 173px;
+    left: 170px;
+  }
+
+  #eye_right {
+    top: 158px;
+    left: 200px;
+  }
+
+  .eye_ball {
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: #000;
+    top: 3px;
+    right: 0px;
+  }
+
+  .ear {
+    position: absolute;
+    width: 13px;
+    height: 35px;
+    border-radius: 45%;
+    background-color: #fbb4e0;
+    border: 3px solid #dd9fc6;
+    transform: rotate(-20deg);
+  }
+
+  #ear_left {
+    top: 150px;
+    left: 150px;
+  }
+
+  #ear_right {
+    top: 130px;
+    left: 185px;
+  }
 </style>
 
 <html>
@@ -200,8 +267,12 @@
     <div class="ear" id="ear_left"></div>
     <div class="ear" id="ear_right"></div>
     <!-- 眼睛 -->
-    <div class="eye" id="eye_left"></div>
-    <div class="eye" id="eye_right"></div>
+    <div class="eye" id="eye_left">
+      <div class="eye_ball" id="eye_ball_left"></div>
+    </div>
+    <div class="eye" id="eye_right">
+      <div class="eye_ball" id="eye_ball_right"></div>
+    </div>
     <!-- 嘴巴 -->
     <div class="mouth"></div>
     <!-- 腮红 -->
@@ -210,17 +281,26 @@
     <div class="head">
       <div class="head_hide_board"></div>
       <div class="head_jaw"></div>
-      <div class="head_nose"></div>
+      <!-- 鼻子 -->
+      <div class="head_nose">
+        <!-- 鼻孔 -->
+         <div class="nose_hole" id="nose_hole_left"></div>
+         <div class="nose_hole" id="nose_hole_right"></div>
+      </div>
       <div class="head_bottom_nose">
-        <!-- 鼻子 -->
-        <div class="nose_hole" id="nose_hole_left"></div>
-        <div class="nose_hole" id="nose_hole_right"></div>
+       
       </div>
       <div class="head_hide_bar"></div>
     </div>
     <!-- 手臂 -->
-    <div class="arm" id="arm_left"></div>
-    <div class="arm" id="arm_right"></div>
+    <div class="arm" id="arm_left">
+      <div class="finger" class="finger_left_one"></div>
+      <div class="finger" class="finger_left_two"></div>
+    </div>
+    <div class="arm" id="arm_right">
+        <div class="finger" class="finger_right_one"></div>
+        <div class="finger" class="finger_right_two"></div>
+    </div>
     <!-- 身体 -->
     <div class="body"></div>
     <!-- 腿 -->

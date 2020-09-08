@@ -1,5 +1,5 @@
 <template>
-  <div>this is login page</div>
+  <div>this is header commponent</div>
 </template>
 
 <script>

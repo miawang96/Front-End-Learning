@@ -6,15 +6,15 @@
 </template>
 
 <script>
-import { userService } from './service';
+// import { userService } from './service';
 
 export default {
   name: 'App',
   components: {},
   mounted: () => {
-    userService.getUsers().then(data => {
-      console.log(`this is ${data}`);
-    });
+    // userService.getUsers().then(data => {
+    //   console.log(`this is ${data}`);
+    // });
   },
 };
 </script>

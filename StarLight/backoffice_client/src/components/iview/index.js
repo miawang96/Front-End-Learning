@@ -13,6 +13,8 @@ import {
   Content,
   Sider,
   Submenu,
+  Timeline,
+  TimelineItem,
 } from 'view-design';
 
 Vue.component('Button', Button);
@@ -27,3 +29,5 @@ Vue.component('BreadcrumbItem', BreadcrumbItem);
 Vue.component('Content', Content);
 Vue.component('Sider', Sider);
 Vue.component('Submenu', Submenu);
+Vue.component('Timeline', Timeline);
+Vue.component('TimelineItem', TimelineItem);

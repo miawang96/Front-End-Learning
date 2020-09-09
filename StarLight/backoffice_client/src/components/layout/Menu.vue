@@ -1,5 +1,10 @@
 <template>
-  <Menu theme="light" width="auto">
+  <Menu
+    theme="light"
+    width="auto"
+    :active-name="this.$route.name"
+    :open-names="['Survey_List_Page']"
+  >
     <template v-for="(menu, index) in menus">
       <Submenu :name="menu.name" v-if="menu.items" :key="index">
         <template slot="title">
@@ -25,11 +30,17 @@
 
 <script>
 import { menus } from '@/constants';
+
 export default {
   data() {
     return {
       menus,
+      openNames: [],
     };
+  },
+  mounted() {
+    // 根据当前页面路径选中菜单
+    console.log(this.$route.name);
   },
   methods: {},
 };

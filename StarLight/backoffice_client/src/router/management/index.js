@@ -1,7 +1,8 @@
 import Views from '@/views';
 import { Management } from '@/layout';
+import ViewNames from '@/constants/view-names';
 
-const { Survey } = Views;
+const { Survey, Log } = Views;
 
 const managementRoutes = [
   {
@@ -10,9 +11,14 @@ const managementRoutes = [
     component: Management,
     children: [
       {
-        name: 'SurveyList',
+        name: ViewNames.Survey.List,
         path: 'survey',
         component: Survey.List,
+      },
+      {
+        name: ViewNames.Log.List,
+        path: 'log',
+        component: Log.List,
       },
     ],
   },

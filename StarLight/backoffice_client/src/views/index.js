@@ -1,4 +1,4 @@
 import Login from './common/Login.vue';
-import { Survey } from './management';
+import { Survey, Log } from './management';
 
-export default { Login, Survey };
+export default { Login, Survey, Log };

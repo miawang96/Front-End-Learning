@@ -1,11 +1,10 @@
+import ViewNames from '../view-names';
+
 export default [
   {
-    name: 'SurveyList',
+    name: ViewNames.Survey.List,
     display: '问卷管理',
     icon: 'ios-paper',
-    to: {
-      name: 'SurveyList',
-    },
     items: [
       {
         name: '1-1',
@@ -14,7 +13,7 @@ export default [
     ],
   },
   {
-    name: 'update-history',
+    name: ViewNames.Log.List,
     display: '更新日志',
     icon: 'ios-people',
   },

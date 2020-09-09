@@ -1,15 +1,18 @@
-import { About } from '@/views';
+import Views from '@/views';
 import { Management } from '@/layout';
+
+const { Survey } = Views;
 
 const managementRoutes = [
   {
-    path: '/manage',
-    name: 'Manage',
+    path: '/management',
+    name: 'Management',
     component: Management,
     children: [
       {
-        path: 'about',
-        component: About,
+        name: 'SurveyList',
+        path: 'survey',
+        component: Survey.List,
       },
     ],
   },

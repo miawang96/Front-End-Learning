@@ -1,6 +1,4 @@
 import Login from './common/Login.vue';
+import { Survey } from './management';
 
-import Home from './management/Home.vue';
-import About from './management/About.vue';
-
-export { Login, Home, About };
+export default { Login, Survey };

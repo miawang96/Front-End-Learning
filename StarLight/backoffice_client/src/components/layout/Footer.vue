@@ -1,5 +1,5 @@
 <template>
-  <div>this is footer commponent</div>
+  <Footer class="layout-footer-center">2020 &copy; Star Light</Footer>
 </template>
 
 <script>

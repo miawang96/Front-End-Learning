@@ -1,4 +1,4 @@
-# vue-next
+# backoffice_ui
 
 ## Project setup
 ```

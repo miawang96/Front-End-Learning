@@ -1,11 +1,14 @@
-import { createRouter, createWebHistory } from 'vue-router';
+import Router from 'vue-router';
+import Vue from 'vue';
 import managementRoutes from './management';
 import commonRoutes from './common';
 
 const routes = [...managementRoutes, ...commonRoutes];
 
-const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
+Vue.use(Router);
+
+const router = new Router({
+  mode: 'history',
   routes,
 });
 

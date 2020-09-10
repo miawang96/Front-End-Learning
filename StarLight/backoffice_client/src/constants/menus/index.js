@@ -2,12 +2,12 @@ import ViewNames from '../view-names';
 
 export default [
   {
-    name: ViewNames.Survey.List,
+    name: 'survey_management',
     display: '问卷管理',
     icon: 'ios-paper',
     items: [
       {
-        name: '1-1',
+        name: ViewNames.Survey.List,
         display: '问卷列表',
       },
     ],

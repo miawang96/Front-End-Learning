@@ -12,8 +12,15 @@ const managementRoutes = [
     children: [
       {
         name: ViewNames.Survey.List,
-        path: 'survey',
+        path: 'survey/list',
         component: Survey.List,
+        meta: { module: ViewNames.Survey.List },
+      },
+      {
+        name: ViewNames.Survey.Edit,
+        path: 'survey/edit',
+        component: Survey.Edit,
+        meta: { module: ViewNames.Survey.List },
       },
       {
         name: ViewNames.Log.List,

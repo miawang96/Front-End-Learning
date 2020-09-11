@@ -2,7 +2,7 @@ import Views from '@/views';
 import { Management } from '@/layout';
 import ViewNames from '@/constants/view-names';
 
-const { Survey, Log } = Views;
+const { ExamPaper, Log } = Views;
 
 const managementRoutes = [
   {
@@ -11,16 +11,16 @@ const managementRoutes = [
     component: Management,
     children: [
       {
-        name: ViewNames.Survey.List,
-        path: 'survey/list',
-        component: Survey.List,
-        meta: { module: ViewNames.Survey.List },
+        name: ViewNames.ExamPaper.List,
+        path: 'exam_paper/list',
+        component: ExamPaper.List,
+        meta: { module: ViewNames.ExamPaper.List },
       },
       {
-        name: ViewNames.Survey.Edit,
-        path: 'survey/edit',
-        component: Survey.Edit,
-        meta: { module: ViewNames.Survey.List },
+        name: ViewNames.ExamPaper.Edit,
+        path: 'exam_paper/edit',
+        component: ExamPaper.Edit,
+        meta: { module: ViewNames.ExamPaper.List },
       },
       {
         name: ViewNames.Log.List,

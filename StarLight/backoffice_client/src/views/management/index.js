@@ -1,4 +1,4 @@
-import Survey from './survey';
+import ExamPaper from './exam-paper';
 import Log from './log';
 
-export { Survey, Log };
+export { ExamPaper, Log };

@@ -1,5 +1,5 @@
 <template>
-  <div>this is survey list page.</div>
+  <div>this is upload exam-paper page.</div>
 </template>
 
 <script>

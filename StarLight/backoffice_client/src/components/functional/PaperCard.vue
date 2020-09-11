@@ -1,5 +1,5 @@
 <template>
-  <div>this is upload survey page.</div>
+  <div>this is paper card component</div>
 </template>
 
 <script>

@@ -1,5 +1,5 @@
 <template>
-  <div>this is survey detail page.</div>
+  <div>this is exam-paper detail page.</div>
 </template>
 
 <script>

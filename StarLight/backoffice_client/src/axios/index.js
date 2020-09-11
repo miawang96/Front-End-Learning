@@ -7,7 +7,7 @@ export function get(url) {
     axios
       .get(url)
       .then(res => {
-        resolve(res);
+        resolve(res.data);
       })
       .catch(err => {
         reject(err);

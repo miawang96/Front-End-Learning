@@ -1,9 +1,22 @@
-<style lang="less" scoped></style>
+<style lang="less" scoped>
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  width: 100%;
+}
+.ivu-layout-header {
+  background: #fff;
+  border-bottom: 1px solid #dcdee2;
+}
+</style>
 <template>
-  <Header>
-    <div class="slogan">兴起发光</div>
-    <div class=""></div>
-  </Header>
+  <div class="header">
+    <Header theme="primary">
+      <div class="slogan">Slogan placeholder</div>
+    </Header>
+  </div>
 </template>
 
 <script>

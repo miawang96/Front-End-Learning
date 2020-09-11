@@ -1,11 +1,11 @@
 var express = require('express');
 var router = express.Router();
 
-var Users = require('../models/users');
+var ExamPapers = require('../models/exam_paper');
 
 /* GET users listing. */
 router.get('/', function (req, res, next) {
-  Users.find({}, (err, doc) => {
+  ExamPapers.find({}, (err, doc) => {
     if (err) {
       res.json({
         status: '1',

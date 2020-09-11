@@ -2,7 +2,7 @@
   <div class="layout">
     <Layout>
       <Header />
-      <Layout :style="{ padding: '0 50px' }">
+      <Layout :style="{ padding: '0 20px', margin: '80px 0 0 0' }">
         <Content
           :style="{
             padding: '24px 0',
@@ -16,7 +16,7 @@
             </Sider>
             <Content
               :style="{
-                padding: '24px',
+                padding: '0 24px',
                 minHeight: '280px',
                 background: '#fff',
               }"

@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
-var ExamPapers = require('../models/exam_paper');
+var ExamPapers = require('../models/examPaper.model');
 
 /* GET users listing. */
 router.get('/', function (req, res, next) {

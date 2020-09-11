@@ -15,6 +15,9 @@ import {
   Submenu,
   Timeline,
   TimelineItem,
+  Card,
+  Row,
+  Col,
 } from 'view-design';
 
 Vue.component('Button', Button);
@@ -31,3 +34,6 @@ Vue.component('Sider', Sider);
 Vue.component('Submenu', Submenu);
 Vue.component('Timeline', Timeline);
 Vue.component('TimelineItem', TimelineItem);
+Vue.component('Card', Card);
+Vue.component('Row', Row);
+Vue.component('Col', Col);

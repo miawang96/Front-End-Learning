@@ -25,7 +25,7 @@ mongoose.connection.on('disconnected', function () {
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-var examPapersRouter = require('./routes/exam_papers');
+var examPapersRouter = require('./routes/examPaper.route');
 
 var app = express();
 

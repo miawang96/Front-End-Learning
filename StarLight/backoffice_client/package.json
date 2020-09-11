@@ -44,7 +44,13 @@
       "parser": "babel-eslint"
     },
     "rules": {
-      "linebreak-style": 0
+      "linebreak-style": 0,
+      "vue/no-parsing-error": [
+        "error",
+        {
+          "x-invalid-end-tag": false
+        }
+      ]
     }
   },
   "browserslist": [

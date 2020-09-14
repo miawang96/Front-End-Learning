@@ -33,6 +33,7 @@
 <script>
 import { ActionBar, PaperCard } from '@/components';
 import { examPaperService } from '@/service';
+import { formatData } from './common';
 export default {
   data() {
     return {
@@ -46,7 +47,7 @@ export default {
   mounted() {
     examPaperService.getExamPapers().then(res => {
       const { result } = res;
-      this.examPapers = result.data;
+      this.examPapers = formatData(result.data);
     });
   },
 };

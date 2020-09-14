@@ -4,5 +4,6 @@ import Menu from './layout/Menu.vue';
 
 import ActionBar from './functional/ActionBar.vue';
 import PaperCard from './functional/PaperCard.vue';
+import StatusIcon from './functional/StatusIcon.vue';
 
-export { Footer, Header, Menu, ActionBar, PaperCard };
+export { Footer, Header, Menu, ActionBar, PaperCard, StatusIcon };

@@ -18,6 +18,7 @@ import {
   Card,
   Row,
   Col,
+  Divider,
 } from 'view-design';
 
 Vue.component('Button', Button);
@@ -37,3 +38,4 @@ Vue.component('TimelineItem', TimelineItem);
 Vue.component('Card', Card);
 Vue.component('Row', Row);
 Vue.component('Col', Col);
+Vue.component('Divider', Divider);

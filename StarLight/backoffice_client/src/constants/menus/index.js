@@ -3,12 +3,12 @@ import ViewNames from '../view-names';
 export default [
   {
     name: 'exam_paper_management',
-    display: '问卷管理',
+    display: '试题管理',
     icon: 'ios-paper',
     items: [
       {
         name: ViewNames.ExamPaper.List,
-        display: '问卷列表',
+        display: '试题列表',
       },
     ],
   },

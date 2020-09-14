@@ -21,8 +21,12 @@
 
 <template>
   <div class="action-bar">
-    <div class="action-bar-title"><slot name="title"></slot></div>
-    <div class="action-bar-actions"><slot name="actions"></slot></div>
+    <div class="action-bar-title">
+      <slot name="title"></slot>
+    </div>
+    <div class="action-bar-actions">
+      <slot name="actions"></slot>
+    </div>
   </div>
 </template>
 

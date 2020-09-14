@@ -48,6 +48,8 @@
 </template>
 
 <script>
+import ViewNames from '@/constants/view-names';
+
 export default {
   props: {
     paper: {
@@ -56,7 +58,9 @@ export default {
     },
   },
   methods: {
-    viewDetail() {},
+    viewDetail() {
+      this.$router.push({ name: ViewNames.ExamPaper.Detail, params: { id: 1 } });
+    },
   },
 };
 </script>

@@ -10,9 +10,9 @@
 <template>
   <div class="exam-paper-list">
     <action-bar>
-      <template v-slot:title>问卷列表页</template>
+      <template v-slot:title>试题列表页</template>
       <template v-slot:actions>
-        <Button type="primary" icon="md-add">新建</Button>
+        <Button type="primary" icon="md-add" @click="createExamPaper">新建</Button>
       </template>
     </action-bar>
     <div class="paper-cards">
@@ -33,6 +33,7 @@
 <script>
 import { ActionBar, PaperCard } from '@/components';
 import { examPaperService } from '@/service';
+import ViewNames from '@/constants/view-names';
 import { formatData } from './common';
 export default {
   data() {
@@ -49,6 +50,11 @@ export default {
       const { result } = res;
       this.examPapers = formatData(result.data);
     });
+  },
+  methods: {
+    createExamPaper() {
+      this.$router.push({ name: ViewNames.ExamPaper.Edit });
+    },
   },
 };
 </script>

@@ -23,6 +23,12 @@ const managementRoutes = [
         meta: { module: ViewNames.ExamPaper.List },
       },
       {
+        name: ViewNames.ExamPaper.Detail,
+        path: 'exam_paper/detail/:id',
+        component: ExamPaper.Detail,
+        meta: { module: ViewNames.ExamPaper.List },
+      },
+      {
         name: ViewNames.Log.List,
         path: 'log',
         component: Log.List,

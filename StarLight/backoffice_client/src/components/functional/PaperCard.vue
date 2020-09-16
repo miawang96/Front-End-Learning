@@ -5,7 +5,7 @@
       display: flex;
       &-label {
         text-align: left;
-        width: 25%;
+        width: 30%;
       }
 
       &-value {
@@ -59,7 +59,7 @@ export default {
   },
   methods: {
     viewDetail() {
-      this.$router.push({ name: ViewNames.ExamPaper.Detail, params: { id: 1 } });
+      this.$router.push({ name: ViewNames.ExamPaper.Detail, params: { id: this.paper.id } });
     },
   },
 };

@@ -19,6 +19,7 @@ import {
   Row,
   Col,
   Divider,
+  Tag,
 } from 'view-design';
 
 Vue.component('Button', Button);
@@ -39,3 +40,4 @@ Vue.component('Card', Card);
 Vue.component('Row', Row);
 Vue.component('Col', Col);
 Vue.component('Divider', Divider);
+Vue.component('Tag', Tag);

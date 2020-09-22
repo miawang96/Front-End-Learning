@@ -2,9 +2,7 @@
   <Menu
     theme="light"
     width="auto"
-    :active-name="
-      this.$route.meta.module ? this.$route.meta.module : this.$route.name
-    "
+    :active-name="this.$route.meta.module ? this.$route.meta.module : this.$route.name"
     :open-names="this.openNames"
     ref="menu"
   >
@@ -47,15 +45,12 @@ export default {
   },
   methods: {
     setOpenNames() {
-      const currentRoute = this.$route.meta.module
-        ? this.$route.meta.module
-        : this.$route.name;
+      const currentRoute = this.$route.meta.module ? this.$route.meta.module : this.$route.name;
 
       const shouldOpenedMenu = this.menus.find(menu => {
         const findInRoot = menu.name === currentRoute;
         const { items } = menu;
-        const findInChilds =
-          items && items.find(item => item.name === currentRoute);
+        const findInChilds = items && items.find(item => item.name === currentRoute);
 
         return findInRoot || findInChilds;
       });

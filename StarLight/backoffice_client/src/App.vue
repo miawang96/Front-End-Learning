@@ -14,6 +14,8 @@ export default {
     userService.getUsers().then(data => {
       console.log(`this is ${data}`);
     });
+
+    console.log(process.env.VUE_APP_API_BASE);
   },
 };
 </script>

@@ -1,8 +1,8 @@
-import Views from '@/views';
+import { ManagementViews } from '@/views';
 import { Management } from '@/layout';
-import ViewNames from '@/constants/view-names';
+import { viewNames } from '@/constants';
 
-const { ExamPaper, Log } = Views;
+const { ExamPaper, Log } = ManagementViews;
 
 const managementRoutes = [
   {
@@ -11,25 +11,25 @@ const managementRoutes = [
     component: Management,
     children: [
       {
-        name: ViewNames.ExamPaper.List,
+        name: viewNames.ExamPaper.List,
         path: 'exam_paper/list',
         component: ExamPaper.List,
-        meta: { module: ViewNames.ExamPaper.List },
+        meta: { module: viewNames.ExamPaper.List },
       },
       {
-        name: ViewNames.ExamPaper.Edit,
+        name: viewNames.ExamPaper.Edit,
         path: 'exam_paper/edit',
         component: ExamPaper.Edit,
-        meta: { module: ViewNames.ExamPaper.List },
+        meta: { module: viewNames.ExamPaper.List },
       },
       {
-        name: ViewNames.ExamPaper.Detail,
+        name: viewNames.ExamPaper.Detail,
         path: 'exam_paper/detail/:id',
         component: ExamPaper.Detail,
-        meta: { module: ViewNames.ExamPaper.List },
+        meta: { module: viewNames.ExamPaper.List },
       },
       {
-        name: ViewNames.Log.List,
+        name: viewNames.Log.List,
         path: 'log',
         component: Log.List,
       },

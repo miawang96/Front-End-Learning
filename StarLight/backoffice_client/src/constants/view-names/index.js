@@ -8,4 +8,10 @@ const Log = {
   List: 'Log_List_Page',
 };
 
-export default { ExamPaper, Log };
+const Login = 'Login_Page';
+
+const Error = {
+  NotFound: 'Error_404_Page',
+};
+
+export default { ExamPaper, Log, Login, Error };

@@ -1,4 +1,4 @@
-import Login from './common/Login.vue';
-import { ExamPaper, Log } from './management';
+import CommonViews from './common';
+import ManagementViews from './management';
 
-export default { Login, ExamPaper, Log };
+export { CommonViews, ManagementViews };

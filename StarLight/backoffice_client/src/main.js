@@ -4,6 +4,8 @@ import router from './router';
 import store from './store';
 import '@/components/iview';
 
+import './interceptors';
+
 Vue.config.productionTip = false;
 
 new Vue({

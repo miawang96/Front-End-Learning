@@ -1,6 +1,7 @@
 import axios from 'axios';
+import { envConfig } from '@/constants';
 
-axios.defaults.baseURL = 'http://127.0.0.1:3000/';
+axios.defaults.baseURL = envConfig.apiBase;
 
 export function get(url) {
   return new Promise((resolve, reject) => {

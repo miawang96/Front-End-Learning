@@ -6,6 +6,7 @@ import store from './store';
 import '@/components/iview';
 
 import './interceptors';
+import './style/main.less';
 
 Vue.config.productionTip = false;
 

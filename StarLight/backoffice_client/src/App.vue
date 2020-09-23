@@ -14,6 +14,7 @@ export default {
     userService.getUsers().then(data => {
       console.log(`this is ${data}`);
     });
+    console.log(process.env.NODE_ENV);
   },
 };
 </script>

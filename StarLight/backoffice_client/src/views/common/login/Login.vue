@@ -1,5 +1,7 @@
 <template>
-  <div>this is login page</div>
+  <div>
+    <vue-particles color="#dedede"></vue-particles>
+  </div>
 </template>
 
 <script>

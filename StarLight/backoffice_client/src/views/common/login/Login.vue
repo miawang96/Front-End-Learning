@@ -1,28 +1,29 @@
 <style lang="less" scoped>
 .login {
-  position: relative;
   height: 100%;
+  position: relative;
 
-  &-img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    max-height: 100%;
+  #particles-js {
+    height: 100%;
   }
 
-  &-effect {
+  @height: 50%;
+  @width: 40%;
+  &-form {
     position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 10;
+    height: calc(~'@{height}');
+    width: calc(~'@{width}');
+    top: calc(~'(100% - @{height})/2');
+    left: calc(~'(100% - @{width})/2');
+    border: 1px solid red;
   }
 }
 </style>
 
 <template>
   <div class="login">
-    <img class="login-img" :src="backgroundImage" />
     <vue-particles class="login-effect" color="#dedede"></vue-particles>
+    <div class="login-form">f</div>
   </div>
 </template>
 

@@ -20,5 +20,14 @@
 </template>
 
 <script>
+// import curDot from 'cursor-dot';
+// const cursor = curDot({
+//   easing: 4,
+// });
+
+// cursor.over('.header', {
+//   borderColor: 'rgba(255, 255, 255, .38)',
+//   borderWidth: 2,
+// });
 export default {};
 </script>

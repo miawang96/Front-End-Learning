@@ -17,4 +17,9 @@ export default [
     display: '更新日志',
     icon: 'ios-people',
   },
+  {
+    name: ViewNames.About,
+    display: '关于我们',
+    icon: 'md-star-outline',
+  },
 ];

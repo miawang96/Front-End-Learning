@@ -2,7 +2,7 @@ import { ManagementViews } from '@/views';
 import { Management } from '@/layout';
 import { viewNames } from '@/constants';
 
-const { ExamPaper, Log } = ManagementViews;
+const { ExamPaper, Log, About } = ManagementViews;
 
 const managementRoutes = [
   {
@@ -32,6 +32,11 @@ const managementRoutes = [
         name: viewNames.Log.List,
         path: 'log',
         component: Log.List,
+      },
+      {
+        name: viewNames.About,
+        path: 'about',
+        component: About,
       },
     ],
   },

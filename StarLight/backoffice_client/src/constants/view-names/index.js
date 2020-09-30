@@ -14,4 +14,5 @@ const Error = {
   NotFound: 'Error_404_Page',
 };
 
-export default { ExamPaper, Log, Login, Error };
+const About = 'About_Page';
+export default { ExamPaper, Log, Login, Error, About };
